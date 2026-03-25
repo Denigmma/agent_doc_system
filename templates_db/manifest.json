@@ -1,0 +1,8 @@
+{
+  "templates": [
+  "akt_vypolnennyh_rabot",
+  "service_note",
+  "technical_report",
+  "free_statement"
+]
+}

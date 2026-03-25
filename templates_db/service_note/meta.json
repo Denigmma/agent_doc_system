@@ -1,0 +1,7 @@
+{
+  "template_id": "service_note",
+  "name": "Служебная записка",
+  "description": "Внутренний документ для передачи информации или предложений",
+  "keywords": ["записка", "служебная", "внутренний документ", "сообщение"],
+  "required_fields": ["date", "author", "recipient", "content"]
+}

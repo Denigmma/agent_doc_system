@@ -1,0 +1,7 @@
+{
+  "template_id": "akt_vypolnennyh_rabot",
+  "name": "Акт выполненных работ",
+  "description": "Документ для фиксации факта выполнения работ с описанием и результатами",
+  "keywords": ["акт", "выполненные работы", "работы", "отчет о работах"],
+  "required_fields": ["date", "executor", "work_description", "result"]
+}

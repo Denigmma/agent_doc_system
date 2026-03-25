@@ -1,0 +1,7 @@
+{
+  "template_id": "free_statement",
+  "name": "Свободное заявление",
+  "description": "Произвольное заявление в официальном стиле",
+  "keywords": ["заявление", "свободная форма", "обращение"],
+  "required_fields": ["date", "author", "content"]
+}

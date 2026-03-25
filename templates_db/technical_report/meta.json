@@ -1,0 +1,7 @@
+{
+  "template_id": "technical_report",
+  "name": "Технический отчет",
+  "description": "Документ с описанием технической проверки оборудования и результатов",
+  "keywords": ["отчет", "технический", "проверка", "оборудование"],
+  "required_fields": ["date", "equipment", "analysis", "result"]
+}
