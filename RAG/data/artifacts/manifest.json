@@ -1,0 +1,264 @@
+{
+  "chunking": {
+    "chunk_overlap": 50,
+    "chunk_size": 300,
+    "tokenizer_model": "gpt-4o"
+  },
+  "documents": {
+    "2019-09-17-safety-policy": {
+      "meta": {
+        "doc_id": "2019-09-17-safety-policy",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/2019-09-17-safety-policy.pdf",
+        "source_file": "2019-09-17-safety-policy.pdf",
+        "title": "2019-09-17-safety-policy"
+      },
+      "stats": {
+        "avg_chunk_tokens": 250.5,
+        "doc_id": "2019-09-17-safety-policy",
+        "max_chunk_tokens": 300,
+        "num_chunks": 4,
+        "num_empty_pages": 0,
+        "num_pages": 2,
+        "num_sections": 1
+      }
+    },
+    "34.201-2020": {
+      "meta": {
+        "doc_id": "34.201-2020",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/34.201-2020.pdf",
+        "source_file": "34.201-2020.pdf",
+        "title": "34.201-2020"
+      },
+      "stats": {
+        "avg_chunk_tokens": 233.1764705882353,
+        "doc_id": "34.201-2020",
+        "max_chunk_tokens": 300,
+        "num_chunks": 17,
+        "num_empty_pages": 0,
+        "num_pages": 12,
+        "num_sections": 5
+      }
+    },
+    "34.602-2020": {
+      "meta": {
+        "doc_id": "34.602-2020",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/34.602-2020.pdf",
+        "source_file": "34.602-2020.pdf",
+        "title": "34.602-2020"
+      },
+      "stats": {
+        "avg_chunk_tokens": 243.9375,
+        "doc_id": "34.602-2020",
+        "max_chunk_tokens": 302,
+        "num_chunks": 32,
+        "num_empty_pages": 0,
+        "num_pages": 12,
+        "num_sections": 6
+      }
+    },
+    "4293767636": {
+      "meta": {
+        "doc_id": "4293767636",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/4293767636.pdf",
+        "source_file": "4293767636.pdf",
+        "title": "4293767636"
+      },
+      "stats": {
+        "avg_chunk_tokens": 255.78666666666666,
+        "doc_id": "4293767636",
+        "max_chunk_tokens": 302,
+        "num_chunks": 75,
+        "num_empty_pages": 0,
+        "num_pages": 28,
+        "num_sections": 13
+      }
+    },
+    "GOST_R_2.105-2019": {
+      "meta": {
+        "doc_id": "GOST_R_2.105-2019",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/GOST_R_2.105-2019.pdf",
+        "source_file": "GOST_R_2.105-2019.pdf",
+        "title": "GOST_R_2.105-2019"
+      },
+      "stats": {
+        "avg_chunk_tokens": 253.12048192771084,
+        "doc_id": "GOST_R_2.105-2019",
+        "max_chunk_tokens": 303,
+        "num_chunks": 83,
+        "num_empty_pages": 1,
+        "num_pages": 36,
+        "num_sections": 15
+      }
+    },
+    "Gost_7-32_2017": {
+      "meta": {
+        "doc_id": "Gost_7-32_2017",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/Gost_7-32_2017.pdf",
+        "source_file": "Gost_7-32_2017.pdf",
+        "title": "Gost_7-32_2017"
+      },
+      "stats": {
+        "avg_chunk_tokens": 233.64772727272728,
+        "doc_id": "Gost_7-32_2017",
+        "max_chunk_tokens": 301,
+        "num_chunks": 88,
+        "num_empty_pages": 0,
+        "num_pages": 47,
+        "num_sections": 19
+      }
+    },
+    "cto_gazprom_1.13-2012": {
+      "meta": {
+        "doc_id": "cto_gazprom_1.13-2012",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/cto_gazprom_1.13-2012.pdf",
+        "source_file": "cto_gazprom_1.13-2012.pdf",
+        "title": "cto_gazprom_1.13-2012"
+      },
+      "stats": {
+        "avg_chunk_tokens": 236.59649122807016,
+        "doc_id": "cto_gazprom_1.13-2012",
+        "max_chunk_tokens": 301,
+        "num_chunks": 57,
+        "num_empty_pages": 0,
+        "num_pages": 32,
+        "num_sections": 13
+      }
+    },
+    "koncept_tr_2023": {
+      "meta": {
+        "doc_id": "koncept_tr_2023",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/koncept_tr_2023.pdf",
+        "source_file": "koncept_tr_2023.pdf",
+        "title": "koncept_tr_2023"
+      },
+      "stats": {
+        "avg_chunk_tokens": 257.9166666666667,
+        "doc_id": "koncept_tr_2023",
+        "max_chunk_tokens": 301,
+        "num_chunks": 24,
+        "num_empty_pages": 0,
+        "num_pages": 10,
+        "num_sections": 5
+      }
+    },
+    "pravila_vklychenija_produkcii_v_mtr": {
+      "meta": {
+        "doc_id": "pravila_vklychenija_produkcii_v_mtr",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/pravila_vklychenija_produkcii_v_mtr.pdf",
+        "source_file": "pravila_vklychenija_produkcii_v_mtr.pdf",
+        "title": "pravila_vklychenija_produkcii_v_mtr"
+      },
+      "stats": {
+        "avg_chunk_tokens": 249.0,
+        "doc_id": "pravila_vklychenija_produkcii_v_mtr",
+        "max_chunk_tokens": 301,
+        "num_chunks": 4,
+        "num_empty_pages": 0,
+        "num_pages": 2,
+        "num_sections": 1
+      }
+    },
+    "rosstandart_290725-gost": {
+      "meta": {
+        "doc_id": "rosstandart_290725-gost",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/rosstandart_290725-gost.pdf",
+        "source_file": "rosstandart_290725-gost.pdf",
+        "title": "rosstandart_290725-gost"
+      },
+      "stats": {
+        "avg_chunk_tokens": 244.4406779661017,
+        "doc_id": "rosstandart_290725-gost",
+        "max_chunk_tokens": 302,
+        "num_chunks": 59,
+        "num_empty_pages": 2,
+        "num_pages": 36,
+        "num_sections": 12
+      }
+    },
+    "sto-gazprom-1.15-2014": {
+      "meta": {
+        "doc_id": "sto-gazprom-1.15-2014",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/sto-gazprom-1.15-2014.pdf",
+        "source_file": "sto-gazprom-1.15-2014.pdf",
+        "title": "sto-gazprom-1.15-2014"
+      },
+      "stats": {
+        "avg_chunk_tokens": 223.5142857142857,
+        "doc_id": "sto-gazprom-1.15-2014",
+        "max_chunk_tokens": 302,
+        "num_chunks": 70,
+        "num_empty_pages": 0,
+        "num_pages": 40,
+        "num_sections": 19
+      }
+    },
+    "sto-gazprom-1.6-2014": {
+      "meta": {
+        "doc_id": "sto-gazprom-1.6-2014",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/sto-gazprom-1.6-2014.pdf",
+        "source_file": "sto-gazprom-1.6-2014.pdf",
+        "title": "sto-gazprom-1.6-2014"
+      },
+      "stats": {
+        "avg_chunk_tokens": 241.86486486486487,
+        "doc_id": "sto-gazprom-1.6-2014",
+        "max_chunk_tokens": 300,
+        "num_chunks": 37,
+        "num_empty_pages": 0,
+        "num_pages": 24,
+        "num_sections": 10
+      }
+    },
+    "sto_gazprom_1.0-2009": {
+      "meta": {
+        "doc_id": "sto_gazprom_1.0-2009",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/sto_gazprom_1.0-2009.pdf",
+        "source_file": "sto_gazprom_1.0-2009.pdf",
+        "title": "sto_gazprom_1.0-2009"
+      },
+      "stats": {
+        "avg_chunk_tokens": 227.8,
+        "doc_id": "sto_gazprom_1.0-2009",
+        "max_chunk_tokens": 300,
+        "num_chunks": 75,
+        "num_empty_pages": 0,
+        "num_pages": 41,
+        "num_sections": 19
+      }
+    },
+    "sto_gazprom_1.1-2009": {
+      "meta": {
+        "doc_id": "sto_gazprom_1.1-2009",
+        "pdf_path": "/kaggle/input/datasets/denismuradyan/gazprom-pdf-rag-index/sto_gazprom_1.1-2009.pdf",
+        "source_file": "sto_gazprom_1.1-2009.pdf",
+        "title": "sto_gazprom_1.1-2009"
+      },
+      "stats": {
+        "avg_chunk_tokens": 228.20863309352518,
+        "doc_id": "sto_gazprom_1.1-2009",
+        "max_chunk_tokens": 300,
+        "num_chunks": 139,
+        "num_empty_pages": 0,
+        "num_pages": 84,
+        "num_sections": 38
+      }
+    }
+  },
+  "embeddings": {
+    "dim": 1024,
+    "model": "BAAI/bge-m3",
+    "normalized": true
+  },
+  "indices": {
+    "chunks_index": "vector_dbs/chunks.faiss",
+    "metric": "inner_product",
+    "sections_index": "vector_dbs/sections.faiss"
+  },
+  "page_base": 1,
+  "pipeline_version": "gazprom-techdocs-bge-m3_v2",
+  "sections": {
+    "fallback_max_pages": 6,
+    "fallback_overlap_pages": 1,
+    "summary_model": "openai/gpt-5-nano"
+  }
+}

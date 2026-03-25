@@ -1,0 +1,2417 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/tables/0"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "name": "_root_",
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "name": "_root_",
+    "self_ref": "#/furniture"
+  },
+  "groups": [],
+  "key_value_items": [],
+  "name": "pravila_vklychenija_produkcii_v_mtr",
+  "origin": {
+    "binary_hash": 3431670645805092589,
+    "filename": "pravila_vklychenija_produkcii_v_mtr.pdf",
+    "mimetype": "application/pdf"
+  },
+  "pages": {
+    "1": {
+      "page_no": 1,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "2": {
+      "page_no": 2,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    }
+  },
+  "pictures": [],
+  "schema_name": "DoclingDocument",
+  "tables": [
+    {
+      "annotations": [],
+      "captions": [],
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "data": {
+        "grid": [
+          [
+            {
+              "bbox": {
+                "b": 191.8487563636363,
+                "coord_origin": "TOPLEFT",
+                "l": 73.44,
+                "r": 138.95769600000006,
+                "t": 155.33375999999987
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 0,
+              "text": "Код группы (подгруппы)"
+            },
+            {
+              "bbox": {
+                "b": 178.52875636363638,
+                "coord_origin": "TOPLEFT",
+                "l": 242.76,
+                "r": 451.83647999999977,
+                "t": 168.53375999999992
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 0,
+              "text": "Наименование группы/подгруппы МТР"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 205.1712073846154,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 195.2937599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 1,
+              "text": "01.00.00"
+            },
+            {
+              "bbox": {
+                "b": 205.1712073846154,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 540.8282880000002,
+                "t": 195.2937599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 1,
+              "text": "Блочно - комплектное технологическое оборудование (АГНКС и их компоненты)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 225.45120738461537,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 215.57375999999988
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 3,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 2,
+              "text": "02.00.00"
+            },
+            {
+              "bbox": {
+                "b": 232.0512073846154,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 522.588096,
+                "t": 208.97375999999986
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 2,
+              "text": "Блочно - комплектное технологическое оборудование (УПТГ, БПТГ, УПТПГ, УПТПИГ, УПИГ и их компоненты)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 245.85120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 235.97375999999986
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 4,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 3,
+              "text": "03.00.00"
+            },
+            {
+              "bbox": {
+                "b": 245.85120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 533.0442240000001,
+                "t": 235.97375999999986
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 4,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 3,
+              "text": "Блочно - комплектное технологическое оборудование (МКС, МКУ, МАС, ДКС)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 259.5312073846154,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 249.65375999999992
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 5,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 4,
+              "text": "04.00.00"
+            },
+            {
+              "bbox": {
+                "b": 259.5312073846154,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 309.84,
+                "t": 249.65375999999992
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 5,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 4,
+              "text": "Агрегаты газоперекачивающие **"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 273.33120738461537,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 263.4537599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 6,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 5,
+              "text": "05.00.00"
+            },
+            {
+              "bbox": {
+                "b": 273.33120738461537,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 459.236736,
+                "t": 263.4537599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 6,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 5,
+              "text": "Газораспределительные станции (АГРС, ГРС и их компоненты)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 287.01120738461543,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 277.13375999999994
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 7,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 6,
+              "text": "07.00.00"
+            },
+            {
+              "bbox": {
+                "b": 287.01120738461543,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 425.51424000000003,
+                "t": 277.13375999999994
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 7,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 6,
+              "text": "Компрессорное оборудование, мощностью свыше 4 МВт"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 327.21120738461536,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 317.33375999999987
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 8,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 7,
+              "text": "09.00.00"
+            },
+            {
+              "bbox": {
+                "b": 353.61120738461534,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 550.24704,
+                "t": 290.8137599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 8,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 7,
+              "text": "Насосное оборудование (за исключением насосов, насосных агрегатов, насосных установок и насосных станций бытового и коммунального назначения (водоснабжение, водоотведение, тепло - и холодоснабжение), ручных насосов, насосов пожаротушения, систем смазки машин и механизмов (лубрикаторы), а также насосов гидравлических подъемных систем)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 367.29120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 357.41375999999997
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 9,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 8,
+              "text": "12.01.01"
+            },
+            {
+              "bbox": {
+                "b": 367.29120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 271.05523200000005,
+                "t": 357.41375999999997
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 9,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 8,
+              "text": "Клапаны антипомпажные"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 387.6912073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 377.81375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 10,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 9,
+              "text": "13.00.00"
+            },
+            {
+              "bbox": {
+                "b": 394.29120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 503.01388800000046,
+                "t": 371.21376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 10,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 9,
+              "text": "Электрогенерирующее оборудование (электростанции, электроагрегаты, электрогенерирующие источники и т.д.)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 407.97120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 398.09376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 11,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 10,
+              "text": "14.00.00"
+            },
+            {
+              "bbox": {
+                "b": 407.97120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 283.9461119999999,
+                "t": 398.09376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 11,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 10,
+              "text": "Турбодетандерные агрегаты"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 421.77120738461537,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 411.89376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 12,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 11,
+              "text": "1 6.00.00"
+            },
+            {
+              "bbox": {
+                "b": 421.53120738461536,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 453.46636800000005,
+                "t": 411.65376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 12,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 11,
+              "text": "Аппараты воздушного охлаждения (для углеводородных сред)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 435.81120738461533,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 425.93375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 13,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 12,
+              "text": "19.00.00"
+            },
+            {
+              "bbox": {
+                "b": 435.4512073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 246.1524479999998,
+                "t": 425.57375999999994
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 13,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 12,
+              "text": "Фонтанная арматура"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 450.21120738461536,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 440.33376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 14,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 13,
+              "text": "20.00.00"
+            },
+            {
+              "bbox": {
+                "b": 449.85120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 294.4362239999999,
+                "t": 439.97375999999997
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 14,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 13,
+              "text": "Оборудование устьев скважин"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 464.2512073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000001,
+                "t": 454.37375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 15,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 14,
+              "text": "2 1 .00.00"
+            },
+            {
+              "bbox": {
+                "b": 464.0112073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 332.1826559999999,
+                "t": 454.13375999999994
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 15,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 14,
+              "text": "Комплексы подземного оборудования"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 477.93120738461533,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 468.05375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 16,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 15,
+              "text": "22.00.00"
+            },
+            {
+              "bbox": {
+                "b": 477.81120738461533,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 284.11545599999994,
+                "t": 467.93375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 16,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 15,
+              "text": "Оборудование промысловое"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 491.97120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 482.09376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 17,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 16,
+              "text": "24.00.00"
+            },
+            {
+              "bbox": {
+                "b": 491.73120738461535,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 311.256576,
+                "t": 481.85375999999997
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 17,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 16,
+              "text": "Оборудование внутрискважинное"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 506.0112073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 496.13375999999994
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 18,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 17,
+              "text": "38.02.00"
+            },
+            {
+              "bbox": {
+                "b": 506.0112073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 549.84,
+                "t": 496.13375999999994
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 18,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 17,
+              "text": "Комплектные распределительные устройства и трансформаторные подстанции** *"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 519.8112073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 509.93375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 19,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 18,
+              "text": "38.03.00"
+            },
+            {
+              "bbox": {
+                "b": 519.8112073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 440.2563840000003,
+                "t": 509.93375999999995
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 19,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 18,
+              "text": "Блочно - комплектные устройства электроснабжения (БКЭС)"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 533.4912073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 523.61376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 20,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 19,
+              "text": "40.00.00"
+            },
+            {
+              "bbox": {
+                "b": 533.4912073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 398.4312960000003,
+                "t": 523.61376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 20,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 19,
+              "text": "Системы автоматизации технологических объектов"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 547.5312073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 537.6537599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 21,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 20,
+              "text": "44.00.00"
+            },
+            {
+              "bbox": {
+                "b": 547.2912073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 525.6437760000003,
+                "t": 537.4137599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 21,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 20,
+              "text": "Оборудование и материалы, применяемые для противокоррозионной защиты"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 561.9312073846154,
+                "coord_origin": "TOPLEFT",
+                "l": 86.28,
+                "r": 126.60000000000002,
+                "t": 552.05376
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 22,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 21,
+              "text": "59.00.00"
+            },
+            {
+              "bbox": {
+                "b": 561.5712073846153,
+                "coord_origin": "TOPLEFT",
+                "l": 144.72,
+                "r": 299.4312959999999,
+                "t": 551.6937599999999
+              },
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 22,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 21,
+              "text": "Оборудование и средства связи"
+            }
+          ]
+        ],
+        "num_cols": 2,
+        "num_rows": 22,
+        "table_cells": [
+          {
+            "bbox": {
+              "b": 191.8487563636363,
+              "coord_origin": "TOPLEFT",
+              "l": 73.44,
+              "r": 138.95769600000006,
+              "t": 155.33375999999987
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 0,
+            "text": "Код группы (подгруппы)"
+          },
+          {
+            "bbox": {
+              "b": 178.52875636363638,
+              "coord_origin": "TOPLEFT",
+              "l": 242.76,
+              "r": 451.83647999999977,
+              "t": 168.53375999999992
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 0,
+            "text": "Наименование группы/подгруппы МТР"
+          },
+          {
+            "bbox": {
+              "b": 205.1712073846154,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 195.2937599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 1,
+            "text": "01.00.00"
+          },
+          {
+            "bbox": {
+              "b": 205.1712073846154,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 540.8282880000002,
+              "t": 195.2937599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 1,
+            "text": "Блочно - комплектное технологическое оборудование (АГНКС и их компоненты)"
+          },
+          {
+            "bbox": {
+              "b": 225.45120738461537,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 215.57375999999988
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 3,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 2,
+            "text": "02.00.00"
+          },
+          {
+            "bbox": {
+              "b": 232.0512073846154,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 522.588096,
+              "t": 208.97375999999986
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 2,
+            "text": "Блочно - комплектное технологическое оборудование (УПТГ, БПТГ, УПТПГ, УПТПИГ, УПИГ и их компоненты)"
+          },
+          {
+            "bbox": {
+              "b": 245.85120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 235.97375999999986
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 4,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 3,
+            "text": "03.00.00"
+          },
+          {
+            "bbox": {
+              "b": 245.85120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 533.0442240000001,
+              "t": 235.97375999999986
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 4,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 3,
+            "text": "Блочно - комплектное технологическое оборудование (МКС, МКУ, МАС, ДКС)"
+          },
+          {
+            "bbox": {
+              "b": 259.5312073846154,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 249.65375999999992
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 5,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 4,
+            "text": "04.00.00"
+          },
+          {
+            "bbox": {
+              "b": 259.5312073846154,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 309.84,
+              "t": 249.65375999999992
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 5,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 4,
+            "text": "Агрегаты газоперекачивающие **"
+          },
+          {
+            "bbox": {
+              "b": 273.33120738461537,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 263.4537599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 6,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 5,
+            "text": "05.00.00"
+          },
+          {
+            "bbox": {
+              "b": 273.33120738461537,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 459.236736,
+              "t": 263.4537599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 6,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 5,
+            "text": "Газораспределительные станции (АГРС, ГРС и их компоненты)"
+          },
+          {
+            "bbox": {
+              "b": 287.01120738461543,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 277.13375999999994
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 7,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 6,
+            "text": "07.00.00"
+          },
+          {
+            "bbox": {
+              "b": 287.01120738461543,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 425.51424000000003,
+              "t": 277.13375999999994
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 7,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 6,
+            "text": "Компрессорное оборудование, мощностью свыше 4 МВт"
+          },
+          {
+            "bbox": {
+              "b": 327.21120738461536,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 317.33375999999987
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 8,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 7,
+            "text": "09.00.00"
+          },
+          {
+            "bbox": {
+              "b": 353.61120738461534,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 550.24704,
+              "t": 290.8137599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 8,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 7,
+            "text": "Насосное оборудование (за исключением насосов, насосных агрегатов, насосных установок и насосных станций бытового и коммунального назначения (водоснабжение, водоотведение, тепло - и холодоснабжение), ручных насосов, насосов пожаротушения, систем смазки машин и механизмов (лубрикаторы), а также насосов гидравлических подъемных систем)"
+          },
+          {
+            "bbox": {
+              "b": 367.29120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 357.41375999999997
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 9,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 8,
+            "text": "12.01.01"
+          },
+          {
+            "bbox": {
+              "b": 367.29120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 271.05523200000005,
+              "t": 357.41375999999997
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 9,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 8,
+            "text": "Клапаны антипомпажные"
+          },
+          {
+            "bbox": {
+              "b": 387.6912073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 377.81375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 10,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 9,
+            "text": "13.00.00"
+          },
+          {
+            "bbox": {
+              "b": 394.29120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 503.01388800000046,
+              "t": 371.21376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 10,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 9,
+            "text": "Электрогенерирующее оборудование (электростанции, электроагрегаты, электрогенерирующие источники и т.д.)"
+          },
+          {
+            "bbox": {
+              "b": 407.97120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 398.09376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 11,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 10,
+            "text": "14.00.00"
+          },
+          {
+            "bbox": {
+              "b": 407.97120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 283.9461119999999,
+              "t": 398.09376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 11,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 10,
+            "text": "Турбодетандерные агрегаты"
+          },
+          {
+            "bbox": {
+              "b": 421.77120738461537,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 411.89376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 12,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 11,
+            "text": "1 6.00.00"
+          },
+          {
+            "bbox": {
+              "b": 421.53120738461536,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 453.46636800000005,
+              "t": 411.65376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 12,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 11,
+            "text": "Аппараты воздушного охлаждения (для углеводородных сред)"
+          },
+          {
+            "bbox": {
+              "b": 435.81120738461533,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 425.93375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 13,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 12,
+            "text": "19.00.00"
+          },
+          {
+            "bbox": {
+              "b": 435.4512073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 246.1524479999998,
+              "t": 425.57375999999994
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 13,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 12,
+            "text": "Фонтанная арматура"
+          },
+          {
+            "bbox": {
+              "b": 450.21120738461536,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 440.33376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 14,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 13,
+            "text": "20.00.00"
+          },
+          {
+            "bbox": {
+              "b": 449.85120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 294.4362239999999,
+              "t": 439.97375999999997
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 14,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 13,
+            "text": "Оборудование устьев скважин"
+          },
+          {
+            "bbox": {
+              "b": 464.2512073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000001,
+              "t": 454.37375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 15,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 14,
+            "text": "2 1 .00.00"
+          },
+          {
+            "bbox": {
+              "b": 464.0112073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 332.1826559999999,
+              "t": 454.13375999999994
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 15,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 14,
+            "text": "Комплексы подземного оборудования"
+          },
+          {
+            "bbox": {
+              "b": 477.93120738461533,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 468.05375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 16,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 15,
+            "text": "22.00.00"
+          },
+          {
+            "bbox": {
+              "b": 477.81120738461533,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 284.11545599999994,
+              "t": 467.93375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 16,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 15,
+            "text": "Оборудование промысловое"
+          },
+          {
+            "bbox": {
+              "b": 491.97120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 482.09376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 17,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 16,
+            "text": "24.00.00"
+          },
+          {
+            "bbox": {
+              "b": 491.73120738461535,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 311.256576,
+              "t": 481.85375999999997
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 17,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 16,
+            "text": "Оборудование внутрискважинное"
+          },
+          {
+            "bbox": {
+              "b": 506.0112073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 496.13375999999994
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 18,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 17,
+            "text": "38.02.00"
+          },
+          {
+            "bbox": {
+              "b": 506.0112073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 549.84,
+              "t": 496.13375999999994
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 18,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 17,
+            "text": "Комплектные распределительные устройства и трансформаторные подстанции** *"
+          },
+          {
+            "bbox": {
+              "b": 519.8112073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 509.93375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 19,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 18,
+            "text": "38.03.00"
+          },
+          {
+            "bbox": {
+              "b": 519.8112073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 440.2563840000003,
+              "t": 509.93375999999995
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 19,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 18,
+            "text": "Блочно - комплектные устройства электроснабжения (БКЭС)"
+          },
+          {
+            "bbox": {
+              "b": 533.4912073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 523.61376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 20,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 19,
+            "text": "40.00.00"
+          },
+          {
+            "bbox": {
+              "b": 533.4912073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 398.4312960000003,
+              "t": 523.61376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 20,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 19,
+            "text": "Системы автоматизации технологических объектов"
+          },
+          {
+            "bbox": {
+              "b": 547.5312073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 537.6537599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 21,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 20,
+            "text": "44.00.00"
+          },
+          {
+            "bbox": {
+              "b": 547.2912073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 525.6437760000003,
+              "t": 537.4137599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 21,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 20,
+            "text": "Оборудование и материалы, применяемые для противокоррозионной защиты"
+          },
+          {
+            "bbox": {
+              "b": 561.9312073846154,
+              "coord_origin": "TOPLEFT",
+              "l": 86.28,
+              "r": 126.60000000000002,
+              "t": 552.05376
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 22,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 21,
+            "text": "59.00.00"
+          },
+          {
+            "bbox": {
+              "b": 561.5712073846153,
+              "coord_origin": "TOPLEFT",
+              "l": 144.72,
+              "r": 299.4312959999999,
+              "t": 551.6937599999999
+            },
+            "col_span": 1,
+            "column_header": false,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 22,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 21,
+            "text": "Оборудование и средства связи"
+          }
+        ]
+      },
+      "footnotes": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "label": "table",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 278.9686279296875,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 69.90586853027344,
+            "r": 552.662109375,
+            "t": 690.2260894775391
+          },
+          "charspan": [
+            0,
+            0
+          ],
+          "page_no": 2
+        }
+      ],
+      "references": [],
+      "self_ref": "#/tables/0"
+    }
+  ],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "Правила технических ресурсов,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 760.9082610919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 283.68,
+            "r": 553.3322400000001,
+            "t": 788.8144629101563
+          },
+          "charspan": [
+            0,
+            29
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/0",
+      "text": "Правила технических ресурсов,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "включения продукции в Единый Реестр материально -допущенных к применению на объектах Общества и соответствующих требованиям ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 729.3463410919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 73.79604,
+            "r": 541.5962039999993,
+            "t": 773.0896629101563
+          },
+          "charspan": [
+            0,
+            137
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/1",
+      "text": "включения продукции в Единый Реестр материально -допущенных к применению на объектах Общества и соответствующих требованиям ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Единый Реестр материально -технических ресурсов, допущенных к применению  на  объектах  ПАО  «Газпром»  и  соответствующих  требованиям ПАО «Газпром»  (Единый  Реестр  МТР) -совокупность  систематизированных сведений  о  материально -технических  ресурсах,  прошедших  в  установленном в ПАО  «Газпром»  порядке  процедуры  допуска  к  применению  на  объектах ПАО «Газпром», и их производителях.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 623.8876839101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.91111999999998,
+            "r": 556.245839999999,
+            "t": 714.7744629101563
+          },
+          "charspan": [
+            0,
+            396
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/2",
+      "text": "Единый Реестр материально -технических ресурсов, допущенных к применению  на  объектах  ПАО  «Газпром»  и  соответствующих  требованиям ПАО «Газпром»  (Единый  Реестр  МТР) -совокупность  систематизированных сведений  о  материально -технических  ресурсах,  прошедших  в  установленном в ПАО  «Газпром»  порядке  процедуры  допуска  к  применению  на  объектах ПАО «Газпром», и их производителях."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Включению в Единый Реестр МТР подлежит только продукция, относящаяся к перечню групп материально -технических ресурсов, на которые распространяется действие Единого Реестра МТР (перечень таких групп, на которые распространяется действие Единого Реестра МТР, опубликован на официальном сайте ПАО «Газпром» в разделе «Закупки» → «Единый Реестр МТР»).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 545.0390439101565,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.93919999999974,
+            "r": 556.258476,
+            "t": 620.2010229101564
+          },
+          "charspan": [
+            0,
+            348
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/3",
+      "text": "Включению в Единый Реестр МТР подлежит только продукция, относящаяся к перечню групп материально -технических ресурсов, на которые распространяется действие Единого Реестра МТР (перечень таких групп, на которые распространяется действие Единого Реестра МТР, опубликован на официальном сайте ПАО «Газпром» в разделе «Закупки» → «Единый Реестр МТР»)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "По  общему  правилу  включение  продукции в  Единый Реестр  МТР осуществляется путем создания реестровой записи на основании сертификата соответствия, выданного Системой добровольной сертификации ИНТЕРГАЗСЕРТ. Узнать о порядке получения сертификата и подать онлайн -заявку на сертификацию продукции можно на сайте СДС ИНТЕРГАЗСЕРТ.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 466.3248039101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.92515999999989,
+            "r": 556.2317999999999,
+            "t": 541.3744629101564
+          },
+          "charspan": [
+            0,
+            331
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/4",
+      "text": "По  общему  правилу  включение  продукции в  Единый Реестр  МТР осуществляется путем создания реестровой записи на основании сертификата соответствия, выданного Системой добровольной сертификации ИНТЕРГАЗСЕРТ. Узнать о порядке получения сертификата и подать онлайн -заявку на сертификацию продукции можно на сайте СДС ИНТЕРГАЗСЕРТ."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Для некоторых групп материально -технических ресурсов помимо сертификации в СДС ИНТЕРГАЗСЕРТ необходимо прохождение дополнительных испытаний,  подтверждающих  качество  материально -технических  ресурсов  в процессе эксплуатации на объектах Общества (таблица).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 403.2096039101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.91112000000004,
+            "r": 556.2318,
+            "t": 462.5344629101563
+          },
+          "charspan": [
+            0,
+            260
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/5",
+      "text": "Для некоторых групп материально -технических ресурсов помимо сертификации в СДС ИНТЕРГАЗСЕРТ необходимо прохождение дополнительных испытаний,  подтверждающих  качество  материально -технических  ресурсов  в процессе эксплуатации на объектах Общества (таблица)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "При заключении договора на сертификацию продукции в СДС ИНТЕРГАЗСЕРТ  для  определения  корректной  схемы  сертификации важно уведомить орган по сертификации о прохождении сертификации для целей включения продукции в Единый Реестр МТР.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 340.1980839101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.93920000000003,
+            "r": 556.5547200000005,
+            "t": 399.5229429101563
+          },
+          "charspan": [
+            0,
+            235
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/6",
+      "text": "При заключении договора на сертификацию продукции в СДС ИНТЕРГАЗСЕРТ  для  определения  корректной  схемы  сертификации важно уведомить орган по сертификации о прохождении сертификации для целей включения продукции в Единый Реестр МТР."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "В  Единый  Реестр  МТР  может  быть  включена  продукция,  создаваемая технологическими  компаниями в рамках  грантовой  программы поддержки, предусмотренной Постановлением Правительства Российской Федерации от 17.03.2022 №  392 «Об утверждении правил предоставления субсидии из федерального бюджета автономной некоммерческой организации «Центр поддержки инжиниринга и инноваций».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 245.62464391015624,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.95323999999994,
+            "r": 556.2598799999998,
+            "t": 336.39910291015633
+          },
+          "charspan": [
+            0,
+            380
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/7",
+      "text": "В  Единый  Реестр  МТР  может  быть  включена  продукция,  создаваемая технологическими  компаниями в рамках  грантовой  программы поддержки, предусмотренной Постановлением Правительства Российской Федерации от 17.03.2022 №  392 «Об утверждении правил предоставления субсидии из федерального бюджета автономной некоммерческой организации «Центр поддержки инжиниринга и инноваций»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Вопросы, связанные с формированием и ведением Единого Реестра МТР, функционированием СДС ИНТЕРГАЗСЕРТ, находятся в ведении Департамента ПАО «Газпром» (Н.В. Чекалина).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 198.22560391015634,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.98131999999993,
+            "r": 556.29498,
+            "t": 241.82566291015632
+          },
+          "charspan": [
+            0,
+            166
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/8",
+      "text": "Вопросы, связанные с формированием и ведением Единого Реестра МТР, функционированием СДС ИНТЕРГАЗСЕРТ, находятся в ведении Департамента ПАО «Газпром» (Н.В. Чекалина)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "При проектировании, строительстве, реконструкции, техническом перевооружении и ремонте объектов ПАО «Газпром» не допускается применение материально -технических ресурсов, не имеющих  реестровых записей в части номенклатурных групп, на которые распространяется действие Единого Реестра МТР.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 119.48928391015636,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.98131999999987,
+            "r": 556.2935759999998,
+            "t": 194.53894291015627
+          },
+          "charspan": [
+            0,
+            289
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/9",
+      "text": "При проектировании, строительстве, реконструкции, техническом перевооружении и ремонте объектов ПАО «Газпром» не допускается применение материально -технических ресурсов, не имеющих  реестровых записей в части номенклатурных групп, на которые распространяется действие Единого Реестра МТР."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Требование  о  наличии  предлагаемой  участниками  закупки  продукции в Едином  Реестре МТР  может  быть  включено  в  качестве  обязательного в документацию о закупках, проводимых для нужд ПАО «Газпром» и Компаний Группы Газпром.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 56.36544391015639,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.98131999999987,
+            "r": 556.2205680000004,
+            "t": 115.69030291015633
+          },
+          "charspan": [
+            0,
+            230
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/10",
+      "text": "Требование  о  наличии  предлагаемой  участниками  закупки  продукции в Едином  Реестре МТР  может  быть  включено  в  качестве  обязательного в документацию о закупках, проводимых для нужд ПАО «Газпром» и Компаний Группы Газпром."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 800.3349752178485,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.76,
+            "r": 314.76,
+            "t": 810.6239829101562
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/11",
+      "text": "2"
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "Таблица",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 772.6960063705669,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 510.7199999999999,
+            "r": 552.7199999999999,
+            "t": 783.0239829101563
+          },
+          "charspan": [
+            0,
+            7
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/12",
+      "text": "Таблица"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "Перечень групп/подгрупп МТР, требующих прохождения дополнительных испытаний * для включения в Единый Реестр МТР помимо сертификации в СДС ИНТЕРГАЗСЕРТ",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 707.7619410919744,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 84.60371999999995,
+            "r": 544.5822,
+            "t": 754.7344629101564
+          },
+          "charspan": [
+            0,
+            150
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/13",
+      "text": "Перечень групп/подгрупп МТР, требующих прохождения дополнительных испытаний * для включения в Единый Реестр МТР помимо сертификации в СДС ИНТЕРГАЗСЕРТ"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "* -проведение подконтрольной эксплуатации в том  числе на производственных объектах (аналогично : «опытная  эксплуатация»,  «эксплуатационные  испытания»,  «опытно -промышленная эксплуатация», «опытно -промышленные испытания») ;",
+      "parent": {
+        "$ref": "#/tables/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 227.37200449373404,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.91999999999999,
+            "r": 555.4920959999997,
+            "t": 262.1884629101562
+          },
+          "charspan": [
+            0,
+            228
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/14",
+      "text": "* -проведение подконтрольной эксплуатации в том  числе на производственных объектах (аналогично : «опытная  эксплуатация»,  «эксплуатационные  испытания»,  «опытно -промышленная эксплуатация», «опытно -промышленные испытания») ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "** -для полнокомплектных газоперекачивающих агрегатов ;",
+      "parent": {
+        "$ref": "#/tables/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 202.05728449373396,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.93103999999994,
+            "r": 358.3243199999999,
+            "t": 211.55902291015627
+          },
+          "charspan": [
+            0,
+            55
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/15",
+      "text": "** -для полнокомплектных газоперекачивающих агрегатов ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "***-для комплектных трансформаторных подстанций на напряжение от 35 кВ .",
+      "parent": {
+        "$ref": "#/tables/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 176.742564493734,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.9199999999999,
+            "r": 448.3113599999998,
+            "t": 186.2443029101563
+          },
+          "charspan": [
+            0,
+            72
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/16",
+      "text": "***-для комплектных трансформаторных подстанций на напряжение от 35 кВ ."
+    }
+  ],
+  "version": "1.10.0"
+}

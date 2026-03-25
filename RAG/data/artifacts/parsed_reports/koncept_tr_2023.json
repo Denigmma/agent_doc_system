@@ -1,0 +1,6763 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/texts/125"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/127"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/texts/129"
+      },
+      {
+        "$ref": "#/texts/130"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/170"
+      },
+      {
+        "$ref": "#/texts/171"
+      },
+      {
+        "$ref": "#/texts/172"
+      },
+      {
+        "$ref": "#/texts/173"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/177"
+      },
+      {
+        "$ref": "#/texts/178"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/180"
+      },
+      {
+        "$ref": "#/texts/181"
+      },
+      {
+        "$ref": "#/texts/182"
+      },
+      {
+        "$ref": "#/texts/183"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "name": "_root_",
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "name": "_root_",
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/174"
+        },
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/179"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/6"
+    }
+  ],
+  "key_value_items": [],
+  "name": "koncept_tr_2023",
+  "origin": {
+    "binary_hash": 4230324356578151561,
+    "filename": "koncept_tr_2023.pdf",
+    "mimetype": "application/pdf"
+  },
+  "pages": {
+    "1": {
+      "page_no": 1,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "10": {
+      "page_no": 10,
+      "size": {
+        "height": 595.3200073242188,
+        "width": 841.9199829101562
+      }
+    },
+    "2": {
+      "page_no": 2,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "3": {
+      "page_no": 3,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "4": {
+      "page_no": 4,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "5": {
+      "page_no": 5,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "6": {
+      "page_no": 6,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "7": {
+      "page_no": 7,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "8": {
+      "page_no": 8,
+      "size": {
+        "height": 841.9199829101562,
+        "width": 595.3200073242188
+      }
+    },
+    "9": {
+      "page_no": 9,
+      "size": {
+        "height": 595.3200073242188,
+        "width": 841.9199829101562
+      }
+    }
+  },
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [],
+      "children": [
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/142"
+        },
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        },
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        },
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        },
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        },
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/169"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "label": "picture",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 56.6790771484375,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 93.56686401367188,
+            "r": 761.1167602539062,
+            "t": 401.4450988769531
+          },
+          "charspan": [
+            0,
+            0
+          ],
+          "page_no": 9
+        }
+      ],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [
+    {
+      "annotations": [],
+      "captions": [],
+      "children": [],
+      "content_layer": "body",
+      "data": {
+        "grid": [
+          [
+            {
+              "bbox": {
+                "b": 208.8994545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 68.52,
+                "r": 80.58,
+                "t": 198.80600000000004
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 0,
+              "text": "№"
+            },
+            {
+              "bbox": {
+                "b": 208.8994545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 161.9,
+                "r": 348.332,
+                "t": 198.80600000000004
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 0,
+              "text": "Направление Плана мероприятий"
+            },
+            {
+              "bbox": {
+                "b": 208.8994545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 552.19,
+                "r": 651.034,
+                "t": 198.80600000000004
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 3,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 2,
+              "start_row_offset_idx": 0,
+              "text": "Краткое описание"
+            }
+          ]
+        ],
+        "num_cols": 3,
+        "num_rows": 1,
+        "table_cells": [
+          {
+            "bbox": {
+              "b": 208.8994545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 68.52,
+              "r": 80.58,
+              "t": 198.80600000000004
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 0,
+            "text": "№"
+          },
+          {
+            "bbox": {
+              "b": 208.8994545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 161.9,
+              "r": 348.332,
+              "t": 198.80600000000004
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 0,
+            "text": "Направление Плана мероприятий"
+          },
+          {
+            "bbox": {
+              "b": 208.8994545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 552.19,
+              "r": 651.034,
+              "t": 198.80600000000004
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 3,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 2,
+            "start_row_offset_idx": 0,
+            "text": "Краткое описание"
+          }
+        ]
+      },
+      "footnotes": [],
+      "label": "table",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 354.43992614746094,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 55.97712326049805,
+            "r": 785.9138793945312,
+            "t": 407.2972869873047
+          },
+          "charspan": [
+            0,
+            0
+          ],
+          "page_no": 10
+        }
+      ],
+      "references": [],
+      "self_ref": "#/tables/0"
+    },
+    {
+      "annotations": [],
+      "captions": [],
+      "children": [],
+      "content_layer": "body",
+      "data": {
+        "grid": [
+          [
+            {
+              "bbox": {
+                "b": 288.93945454545457,
+                "coord_origin": "TOPLEFT",
+                "l": 66.36,
+                "r": 78.42,
+                "t": 278.846
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 0,
+              "text": "№"
+            },
+            {
+              "bbox": {
+                "b": 288.93945454545457,
+                "coord_origin": "TOPLEFT",
+                "l": 287.45,
+                "r": 443.2339999999999,
+                "t": 278.846
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 0,
+              "text": "Наименование мероприятия"
+            },
+            {
+              "bbox": {
+                "b": 288.93945454545457,
+                "coord_origin": "TOPLEFT",
+                "l": 467.71,
+                "r": 591.1539999999999,
+                "t": 278.846
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 3,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 2,
+              "start_row_offset_idx": 0,
+              "text": "Ожидаемый результат"
+            },
+            {
+              "bbox": {
+                "b": 295.7794545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 606.34,
+                "r": 669.616,
+                "t": 271.886
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 4,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 3,
+              "start_row_offset_idx": 0,
+              "text": "Сроки реализации"
+            },
+            {
+              "bbox": {
+                "b": 288.93945454545457,
+                "coord_origin": "TOPLEFT",
+                "l": 686.98,
+                "r": 773.0320000000002,
+                "t": 278.846
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 5,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 4,
+              "start_row_offset_idx": 0,
+              "text": "Ответственный"
+            }
+          ]
+        ],
+        "num_cols": 5,
+        "num_rows": 1,
+        "table_cells": [
+          {
+            "bbox": {
+              "b": 288.93945454545457,
+              "coord_origin": "TOPLEFT",
+              "l": 66.36,
+              "r": 78.42,
+              "t": 278.846
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 0,
+            "text": "№"
+          },
+          {
+            "bbox": {
+              "b": 288.93945454545457,
+              "coord_origin": "TOPLEFT",
+              "l": 287.45,
+              "r": 443.2339999999999,
+              "t": 278.846
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 0,
+            "text": "Наименование мероприятия"
+          },
+          {
+            "bbox": {
+              "b": 288.93945454545457,
+              "coord_origin": "TOPLEFT",
+              "l": 467.71,
+              "r": 591.1539999999999,
+              "t": 278.846
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 3,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 2,
+            "start_row_offset_idx": 0,
+            "text": "Ожидаемый результат"
+          },
+          {
+            "bbox": {
+              "b": 295.7794545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 606.34,
+              "r": 669.616,
+              "t": 271.886
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 4,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 3,
+            "start_row_offset_idx": 0,
+            "text": "Сроки реализации"
+          },
+          {
+            "bbox": {
+              "b": 288.93945454545457,
+              "coord_origin": "TOPLEFT",
+              "l": 686.98,
+              "r": 773.0320000000002,
+              "t": 278.846
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 5,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 4,
+            "start_row_offset_idx": 0,
+            "text": "Ответственный"
+          }
+        ]
+      },
+      "footnotes": [],
+      "label": "table",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 272.1511535644531,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 55.94198989868164,
+            "r": 785.387939453125,
+            "t": 327.4622497558594
+          },
+          "charspan": [
+            0,
+            0
+          ],
+          "page_no": 10
+        }
+      ],
+      "references": [],
+      "self_ref": "#/tables/1"
+    },
+    {
+      "annotations": [],
+      "captions": [],
+      "children": [],
+      "content_layer": "body",
+      "data": {
+        "grid": [
+          [
+            {
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 0,
+              "text": ""
+            },
+            {
+              "col_span": 1,
+              "column_header": false,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 0,
+              "text": ""
+            },
+            {
+              "bbox": {
+                "b": 446.4294545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 432.31,
+                "r": 476.782,
+                "t": 436.336
+              },
+              "col_span": 2,
+              "column_header": true,
+              "end_col_offset_idx": 4,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 2,
+              "start_row_offset_idx": 0,
+              "text": "20__ год"
+            },
+            {
+              "bbox": {
+                "b": 446.4294545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 432.31,
+                "r": 476.782,
+                "t": 436.336
+              },
+              "col_span": 2,
+              "column_header": true,
+              "end_col_offset_idx": 4,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 2,
+              "start_row_offset_idx": 0,
+              "text": "20__ год"
+            },
+            {
+              "bbox": {
+                "b": 446.4294545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 565.27,
+                "r": 609.7719999999999,
+                "t": 436.336
+              },
+              "col_span": 2,
+              "column_header": true,
+              "end_col_offset_idx": 6,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 4,
+              "start_row_offset_idx": 0,
+              "text": "20__ год"
+            },
+            {
+              "bbox": {
+                "b": 446.4294545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 565.27,
+                "r": 609.7719999999999,
+                "t": 436.336
+              },
+              "col_span": 2,
+              "column_header": true,
+              "end_col_offset_idx": 6,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 4,
+              "start_row_offset_idx": 0,
+              "text": "20__ год"
+            },
+            {
+              "bbox": {
+                "b": 446.4294545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 697.06,
+                "r": 741.5319999999999,
+                "t": 436.336
+              },
+              "col_span": 2,
+              "column_header": true,
+              "end_col_offset_idx": 8,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 6,
+              "start_row_offset_idx": 0,
+              "text": "20__ год"
+            },
+            {
+              "bbox": {
+                "b": 446.4294545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 697.06,
+                "r": 741.5319999999999,
+                "t": 436.336
+              },
+              "col_span": 2,
+              "column_header": true,
+              "end_col_offset_idx": 8,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 6,
+              "start_row_offset_idx": 0,
+              "text": "20__ год"
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "b": 465.62945454545456,
+                "coord_origin": "TOPLEFT",
+                "l": 68.52,
+                "r": 80.58,
+                "t": 455.53600000000006
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 1,
+              "text": "№"
+            },
+            {
+              "bbox": {
+                "b": 465.62945454545456,
+                "coord_origin": "TOPLEFT",
+                "l": 162.02,
+                "r": 317.80400000000003,
+                "t": 455.53600000000006
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 1,
+              "text": "Наименование мероприятия"
+            },
+            {
+              "bbox": {
+                "b": 484.7094545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 400.25,
+                "r": 441.7339999999999,
+                "t": 460.81600000000003
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 3,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 2,
+              "start_row_offset_idx": 1,
+              "text": "Оценка объема"
+            },
+            {
+              "bbox": {
+                "b": 477.8694545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 460.87,
+                "r": 515.026,
+                "t": 467.77600000000007
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 4,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 3,
+              "start_row_offset_idx": 1,
+              "text": "Источник"
+            },
+            {
+              "bbox": {
+                "b": 484.7094545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 534.07,
+                "r": 575.554,
+                "t": 460.81600000000003
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 5,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 4,
+              "start_row_offset_idx": 1,
+              "text": "Оценка объема"
+            },
+            {
+              "bbox": {
+                "b": 477.8694545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 593.86,
+                "r": 648.0160000000001,
+                "t": 467.77600000000007
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 6,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 5,
+              "start_row_offset_idx": 1,
+              "text": "Источник"
+            },
+            {
+              "bbox": {
+                "b": 484.7094545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 665.86,
+                "r": 707.3439999999999,
+                "t": 460.81600000000003
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 7,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 6,
+              "start_row_offset_idx": 1,
+              "text": "Оценка объема"
+            },
+            {
+              "bbox": {
+                "b": 477.8694545454546,
+                "coord_origin": "TOPLEFT",
+                "l": 725.26,
+                "r": 779.416,
+                "t": 467.77600000000007
+              },
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 8,
+              "end_row_offset_idx": 2,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 7,
+              "start_row_offset_idx": 1,
+              "text": "Источник"
+            }
+          ]
+        ],
+        "num_cols": 8,
+        "num_rows": 2,
+        "table_cells": [
+          {
+            "bbox": {
+              "b": 465.62945454545456,
+              "coord_origin": "TOPLEFT",
+              "l": 68.52,
+              "r": 80.58,
+              "t": 455.53600000000006
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 1,
+            "text": "№"
+          },
+          {
+            "bbox": {
+              "b": 465.62945454545456,
+              "coord_origin": "TOPLEFT",
+              "l": 162.02,
+              "r": 317.80400000000003,
+              "t": 455.53600000000006
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 1,
+            "text": "Наименование мероприятия"
+          },
+          {
+            "bbox": {
+              "b": 446.4294545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 432.31,
+              "r": 476.782,
+              "t": 436.336
+            },
+            "col_span": 2,
+            "column_header": true,
+            "end_col_offset_idx": 4,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 2,
+            "start_row_offset_idx": 0,
+            "text": "20__ год"
+          },
+          {
+            "bbox": {
+              "b": 446.4294545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 565.27,
+              "r": 609.7719999999999,
+              "t": 436.336
+            },
+            "col_span": 2,
+            "column_header": true,
+            "end_col_offset_idx": 6,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 4,
+            "start_row_offset_idx": 0,
+            "text": "20__ год"
+          },
+          {
+            "bbox": {
+              "b": 446.4294545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 697.06,
+              "r": 741.5319999999999,
+              "t": 436.336
+            },
+            "col_span": 2,
+            "column_header": true,
+            "end_col_offset_idx": 8,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 6,
+            "start_row_offset_idx": 0,
+            "text": "20__ год"
+          },
+          {
+            "bbox": {
+              "b": 484.7094545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 400.25,
+              "r": 441.7339999999999,
+              "t": 460.81600000000003
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 3,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 2,
+            "start_row_offset_idx": 1,
+            "text": "Оценка объема"
+          },
+          {
+            "bbox": {
+              "b": 477.8694545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 460.87,
+              "r": 515.026,
+              "t": 467.77600000000007
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 4,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 3,
+            "start_row_offset_idx": 1,
+            "text": "Источник"
+          },
+          {
+            "bbox": {
+              "b": 484.7094545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 534.07,
+              "r": 575.554,
+              "t": 460.81600000000003
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 5,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 4,
+            "start_row_offset_idx": 1,
+            "text": "Оценка объема"
+          },
+          {
+            "bbox": {
+              "b": 477.8694545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 593.86,
+              "r": 648.0160000000001,
+              "t": 467.77600000000007
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 6,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 5,
+            "start_row_offset_idx": 1,
+            "text": "Источник"
+          },
+          {
+            "bbox": {
+              "b": 484.7094545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 665.86,
+              "r": 707.3439999999999,
+              "t": 460.81600000000003
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 7,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 6,
+            "start_row_offset_idx": 1,
+            "text": "Оценка объема"
+          },
+          {
+            "bbox": {
+              "b": 477.8694545454546,
+              "coord_origin": "TOPLEFT",
+              "l": 725.26,
+              "r": 779.416,
+              "t": 467.77600000000007
+            },
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 8,
+            "end_row_offset_idx": 2,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 7,
+            "start_row_offset_idx": 1,
+            "text": "Источник"
+          }
+        ]
+      },
+      "footnotes": [],
+      "label": "table",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 79.552734375,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 56.24861145019531,
+            "r": 785.4790649414062,
+            "t": 168.44546508789062
+          },
+          "charspan": [
+            0,
+            0
+          ],
+          "page_no": 10
+        }
+      ],
+      "references": [],
+      "self_ref": "#/tables/2"
+    }
+  ],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "УТВЕРЖДЕНА приказом ПАО «Газпром» от «19» сентября 2023 г. № 353",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 732.2612629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 342.55,
+            "r": 532.93,
+            "t": 776.6497029101563
+          },
+          "charspan": [
+            0,
+            64
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/0",
+      "text": "УТВЕРЖДЕНА приказом ПАО «Газпром» от «19» сентября 2023 г. № 353"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "КОНЦЕПЦИЯ технического регулирования",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 667.7557210919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 219.41,
+            "r": 411.21999999999997,
+            "t": 695.6450629101563
+          },
+          "charspan": [
+            0,
+            36
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/1",
+      "text": "КОНЦЕПЦИЯ технического регулирования"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "и стандартизации ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 651.6757210919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 201.77,
+            "r": 425.5,
+            "t": 663.4850629101563
+          },
+          "charspan": [
+            0,
+            30
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/2",
+      "text": "и стандартизации ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "1. Общие положения",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 619.3957210919746,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 246.17,
+            "r": 381.09999999999997,
+            "t": 631.2050629101564
+          },
+          "charspan": [
+            0,
+            18
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/3",
+      "text": "1. Общие положения"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "label": "list_item",
+      "marker": "",
+      "orig": "1.1. Целью настоящей Концепции является формирование системы взглядов, а также стратегии действий ПАО «Газпром» в области технического регулирования  и стандартизации при  осуществлении  деятельности,  связанной с  геологоразведкой,  добычей,  транспортировкой,  хранением  и переработкой углеводородов, реализацией природного и сжиженного газа, нефти и продуктов переработки на внутреннем и внешних рынках, производством и реализацией тепловой и электрической энергии.",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 500.8712629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 609.5897029101563
+          },
+          "charspan": [
+            0,
+            469
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/4",
+      "text": "1.1. Целью настоящей Концепции является формирование системы взглядов, а также стратегии действий ПАО «Газпром» в области технического регулирования  и стандартизации при  осуществлении  деятельности,  связанной с  геологоразведкой,  добычей,  транспортировкой,  хранением  и переработкой углеводородов, реализацией природного и сжиженного газа, нефти и продуктов переработки на внутреннем и внешних рынках, производством и реализацией тепловой и электрической энергии."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "label": "list_item",
+      "marker": "",
+      "orig": "1.2. Настоящая Концепция определяет:",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 484.79126291015626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 344.14,
+            "t": 496.87970291015625
+          },
+          "charspan": [
+            0,
+            36
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/5",
+      "text": "1.2. Настоящая Концепция определяет:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "роль технического регулирования и стандартизации в реализации стратегических интересов ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 452.6312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.9577999999996,
+            "t": 480.79970291015627
+          },
+          "charspan": [
+            0,
+            101
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/6",
+      "text": "роль технического регулирования и стандартизации в реализации стратегических интересов ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "цели и задачи развития ПАО «Газпром» в области технического регулирования  и стандартизации,  а  также  способы  и  порядок  их  достижения и реализации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 404.2512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 448.6397029101563
+          },
+          "charspan": [
+            0,
+            153
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/7",
+      "text": "цели и задачи развития ПАО «Газпром» в области технического регулирования  и стандартизации,  а  также  способы  и  порядок  их  достижения и реализации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "общие положения  в  части  отношений,  возникающих  при  установлении, применении и исполнении требований (обязательных и на добровольной основе) к  продукции  или  к  продукции  и связанным  с  требованиями  к  продукции процессам проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, а  также  при  осуществлении  деятельности  в  области  оценки  соответствия, в  том  числе  для  целей  обеспечения  долговременной  стабильности  качества продукции.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 275.49126291015637,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.6899999999999,
+            "t": 400.25970291015625
+          },
+          "charspan": [
+            0,
+            542
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/8",
+      "text": "общие положения  в  части  отношений,  возникающих  при  установлении, применении и исполнении требований (обязательных и на добровольной основе) к  продукции  или  к  продукции  и связанным  с  требованиями  к  продукции процессам проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, а  также  при  осуществлении  деятельности  в  области  оценки  соответствия, в  том  числе  для  целей  обеспечения  долговременной  стабильности  качества продукции."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "label": "list_item",
+      "marker": "",
+      "orig": "1.3. Выполнение работ в области технического регулирования 1 и стандартизации в ПАО «Газпром», включая разработку документов перспективного развития, должно осуществляться в соответствии с положениями настоящей  Концепции  и  учитывать  требования  законодательства  Российской Федерации 2 , в том числе:",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 194.9412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 271.46970291015623
+          },
+          "charspan": [
+            0,
+            304
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/9",
+      "text": "1.3. Выполнение работ в области технического регулирования 1 и стандартизации в ПАО «Газпром», включая разработку документов перспективного развития, должно осуществляться в соответствии с положениями настоящей  Концепции  и  учитывать  требования  законодательства  Российской Федерации 2 , в том числе:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "1 Для ПАО «Газпром» в рамках: 1) соблюдения требований и участия в разработке технических регламентов в области деятельности ПАО «Газпром»; 2) применения стандартов, необходимых  для  исполнения  технических  регламентов;  3) функционирования  системы добровольной сертификации ИНТЕРГАЗСЕРТ.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 99.02398291015629,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.8079999999999,
+            "t": 152.5917029101563
+          },
+          "charspan": [
+            0,
+            291
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/10",
+      "text": "1 Для ПАО «Газпром» в рамках: 1) соблюдения требований и участия в разработке технических регламентов в области деятельности ПАО «Газпром»; 2) применения стандартов, необходимых  для  исполнения  технических  регламентов;  3) функционирования  системы добровольной сертификации ИНТЕРГАЗСЕРТ."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "2 С учетом положений международных договоров Российской Федерации, ратифицированных в порядке, установленном законодательством Российской Федерации, в том числе в рамках Евразийского экономического союза.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.28126291015633,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.7479999999999,
+            "t": 97.37170291015627
+          },
+          "charspan": [
+            0,
+            204
+          ],
+          "page_no": 1
+        }
+      ],
+      "self_ref": "#/texts/11",
+      "text": "2 С учетом положений международных договоров Российской Федерации, ратифицированных в порядке, установленном законодательством Российской Федерации, в том числе в рамках Евразийского экономического союза."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/12",
+      "text": "2"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Договора  о  Евразийском  экономическом  союзе  (подписан  в  г. Астане 29.05.2014) 3 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 746.3012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3363599999999,
+            "t": 774.2497029101563
+          },
+          "charspan": [
+            0,
+            87
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/13",
+      "text": "Договора  о  Евразийском  экономическом  союзе  (подписан  в  г. Астане 29.05.2014) 3 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Федерального закона от 27.12.2002 № 184-ФЗ «О техническом регулировании» (с последующими изменениями);",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 714.7412629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.30972,
+            "t": 742.6697029101564
+          },
+          "charspan": [
+            0,
+            102
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/14",
+      "text": "Федерального закона от 27.12.2002 № 184-ФЗ «О техническом регулировании» (с последующими изменениями);"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Федерального закона от 28.12.2013 № 412-ФЗ «Об аккредитации в национальной системе аккредитации» (с последующими изменениями);",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 683.3012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2061600000002,
+            "t": 711.1097029101563
+          },
+          "charspan": [
+            0,
+            126
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/15",
+      "text": "Федерального закона от 28.12.2013 № 412-ФЗ «Об аккредитации в национальной системе аккредитации» (с последующими изменениями);"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Федерального закона от 29.06.2015 № 162-ФЗ «О стандартизации в Российской Федерации» (с последующими изменениями).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 651.7412629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.28224,
+            "t": 679.5497029101564
+          },
+          "charspan": [
+            0,
+            114
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/16",
+      "text": "Федерального закона от 29.06.2015 № 162-ФЗ «О стандартизации в Российской Федерации» (с последующими изменениями)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "2. Техническое регулирование и стандартизация в ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 629.8357210919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 98.304,
+            "r": 528.97,
+            "t": 641.6450629101563
+          },
+          "charspan": [
+            0,
+            61
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/17",
+      "text": "2. Техническое регулирование и стандартизация в ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "2.1. Техническое регулирование и стандартизация  в  ПАО «Газпром» представляют собой систему взаимодействия участников работ в области:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 592.4312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 620.2697029101563
+          },
+          "charspan": [
+            0,
+            135
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/18",
+      "text": "2.1. Техническое регулирование и стандартизация  в  ПАО «Газпром» представляют собой систему взаимодействия участников работ в области:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "1) установления,  применения  и  исполнения  обязательных  требований к продукции  или  к  продукции  и  связанным  с  требованиями  к  продукции процессам, устанавливаемых в технических регламентах;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 545.1512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 588.7997029101564
+          },
+          "charspan": [
+            0,
+            199
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/19",
+      "text": "1) установления,  применения  и  исполнения  обязательных  требований к продукции  или  к  продукции  и  связанным  с  требованиями  к  продукции процессам, устанавливаемых в технических регламентах;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "2) разработки (ведения), утверждения, изменения (актуализации), отмены, опубликования и применения на добровольной основе документов национальной системы стандартизации, межгосударственных и международных стандартов,  документов  Системы  стандартизации  ПАО «Газпром»,  а  также стандартов иных организаций 4 , осуществляющих деятельность по стандартизации в областях, представляющих интерес для ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 450.5912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 541.3997029101563
+          },
+          "charspan": [
+            0,
+            411
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/20",
+      "text": "2) разработки (ведения), утверждения, изменения (актуализации), отмены, опубликования и применения на добровольной основе документов национальной системы стандартизации, межгосударственных и международных стандартов,  документов  Системы  стандартизации  ПАО «Газпром»,  а  также стандартов иных организаций 4 , осуществляющих деятельность по стандартизации в областях, представляющих интерес для ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "3) оценки соответствия объектов технического регулирования и/или стандартизации, осуществляемой в рамках деятельности по оценке соответствия:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 403.29126291015626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2969999999998,
+            "t": 446.8397029101563
+          },
+          "charspan": [
+            0,
+            141
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/21",
+      "text": "3) оценки соответствия объектов технического регулирования и/или стандартизации, осуществляемой в рамках деятельности по оценке соответствия:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "первой стороной (деятельность по оценке соответствия, которую осуществляет лицо или организация, предоставляющее(ая) объект) 5 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 371.73126291015626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.1173999999997,
+            "t": 399.5397029101563
+          },
+          "charspan": [
+            0,
+            128
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/22",
+      "text": "первой стороной (деятельность по оценке соответствия, которую осуществляет лицо или организация, предоставляющее(ая) объект) 5 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "второй стороной (деятельность по оценке соответствия, которую осуществляет лицо или организация, заинтересованное(ая) в объекте как пользователь) 6 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 324.4512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.0662799999998,
+            "t": 368.0997029101563
+          },
+          "charspan": [
+            0,
+            149
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/23",
+      "text": "второй стороной (деятельность по оценке соответствия, которую осуществляет лицо или организация, заинтересованное(ая) в объекте как пользователь) 6 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "третьей стороной (деятельность по оценке соответствия, которую осуществляет  лицо  или  орган,  независимое(ый)  от  лица  или  организации, предоставляющего(ей)  объект,  и  от  пользователя,  заинтересованного  в  этом объекте) 7 .  Осуществляется  в  форме  добровольной  сертификации  в  Системе добровольной сертификации ИНТЕРГАЗСЕРТ и является базовым инструментом допуска продукции для применения на объектах ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 229.86126291015626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 320.69970291015625
+          },
+          "charspan": [
+            0,
+            430
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/24",
+      "text": "третьей стороной (деятельность по оценке соответствия, которую осуществляет  лицо  или  орган,  независимое(ый)  от  лица  или  организации, предоставляющего(ей)  объект,  и  от  пользователя,  заинтересованного  в  этом объекте) 7 .  Осуществляется  в  форме  добровольной  сертификации  в  Системе добровольной сертификации ИНТЕРГАЗСЕРТ и является базовым инструментом допуска продукции для применения на объектах ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "4) обеспечения долговременной стабильности качества продукции 8 .",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 214.02126291015634,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 526.45,
+            "t": 226.10970291015633
+          },
+          "charspan": [
+            0,
+            65
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/25",
+      "text": "4) обеспечения долговременной стабильности качества продукции 8 ."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "3 Раздел Х, приложения 9-11, а также документы, разработанные и утвержденные в соответствии с положениями Договора о Евразийском экономическом союзе.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 154.24398291015632,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 558.82,
+            "t": 180.19170291015632
+          },
+          "charspan": [
+            0,
+            149
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/26",
+      "text": "3 Раздел Х, приложения 9-11, а также документы, разработанные и утвержденные в соответствии с положениями Договора о Евразийском экономическом союзе."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "4 Например, Автономной некоммерческой организации «Институт нефтегазовых технологических инициатив» (АНО «ИНТИ»), учредителем которой является ПАО «Газпром».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 126.6439829101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.4559999999999,
+            "t": 152.5917029101563
+          },
+          "charspan": [
+            0,
+            157
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/27",
+      "text": "4 Например, Автономной некоммерческой организации «Институт нефтегазовых технологических инициатив» (АНО «ИНТИ»), учредителем которой является ПАО «Газпром»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "5 Пункт 2.2 ГОСТ ISO/IEC 17000-2012 «Оценка соответствия. Словарь и общие принципы».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 112.84398291015623,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 543.82,
+            "t": 124.99170291015628
+          },
+          "charspan": [
+            0,
+            84
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/28",
+      "text": "5 Пункт 2.2 ГОСТ ISO/IEC 17000-2012 «Оценка соответствия. Словарь и общие принципы»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "6 Пункт 2.3 ГОСТ ISO/IEC 17000-2012 «Оценка соответствия. Словарь и общие принципы».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 99.02398291015629,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 543.82,
+            "t": 111.17170291015623
+          },
+          "charspan": [
+            0,
+            84
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/29",
+      "text": "6 Пункт 2.3 ГОСТ ISO/IEC 17000-2012 «Оценка соответствия. Словарь и общие принципы»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "7 Пункт 2.4 ГОСТ ISO/IEC 17000-2012 «Оценка соответствия. Словарь и общие принципы».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 85.22398291015634,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 540.4699999999998,
+            "t": 97.37170291015627
+          },
+          "charspan": [
+            0,
+            84
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/30",
+      "text": "7 Пункт 2.4 ГОСТ ISO/IEC 17000-2012 «Оценка соответствия. Словарь и общие принципы»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "8 В  соответствии  с  решением  Совета  директоров  ПАО «Газпром»  от  29.12.2015  № 2651 «Об утверждении Положения о системе управления качеством ПАО «Газпром».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.623982910156315,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.82,
+            "t": 83.57170291015632
+          },
+          "charspan": [
+            0,
+            161
+          ],
+          "page_no": 2
+        }
+      ],
+      "self_ref": "#/texts/31",
+      "text": "8 В  соответствии  с  решением  Совета  директоров  ПАО «Газпром»  от  29.12.2015  № 2651 «Об утверждении Положения о системе управления качеством ПАО «Газпром»."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/32",
+      "text": "3"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "3. Участники работ в области технического регулирования и стандартизации в ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 745.5157210919746,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 123.5,
+            "r": 503.77,
+            "t": 773.5450629101563
+          },
+          "charspan": [
+            0,
+            88
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/33",
+      "text": "3. Участники работ в области технического регулирования и стандартизации в ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "label": "list_item",
+      "marker": "",
+      "orig": "3.1. Основными участниками работ в области технического регулирования и стандартизации в ПАО «Газпром» являются:",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 707.5412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.1755599999997,
+            "t": 735.7097029101564
+          },
+          "charspan": [
+            0,
+            112
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/34",
+      "text": "3.1. Основными участниками работ в области технического регулирования и стандартизации в ПАО «Газпром» являются:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "участники Системы стандартизации ПАО «Газпром» 9 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 691.4612629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 436.65999999999997,
+            "t": 703.5497029101564
+          },
+          "charspan": [
+            0,
+            50
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/35",
+      "text": "участники Системы стандартизации ПАО «Газпром» 9 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "участники Системы добровольной сертификации ИНТЕРГАЗСЕРТ 10 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 675.3812629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 526.33,
+            "t": 687.4697029101563
+          },
+          "charspan": [
+            0,
+            61
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/36",
+      "text": "участники Системы добровольной сертификации ИНТЕРГАЗСЕРТ 10 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "участники Системы менеджмента качества ПАО «Газпром».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 659.3012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 472.93,
+            "t": 671.3897029101563
+          },
+          "charspan": [
+            0,
+            53
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/37",
+      "text": "участники Системы менеджмента качества ПАО «Газпром»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Общая схема  взаимодействия  участников  работ  в  области  технического регулирования и стандартизации в ПАО «Газпром» приведена в приложении № 1.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 627.0212629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2301599999998,
+            "t": 655.1897029101564
+          },
+          "charspan": [
+            0,
+            147
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/38",
+      "text": "Общая схема  взаимодействия  участников  работ  в  области  технического регулирования и стандартизации в ПАО «Газпром» приведена в приложении № 1."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "label": "list_item",
+      "marker": "",
+      "orig": "3.2. Пользователями  результатов  работ  указанных  систем,  полученных в том  числе  при  взаимодействии  с  федеральными  органами  исполнительной власти, организациями нефтегазового комплекса (по направлениям стандартизации и оценки соответствия), а также в ходе участия в технических комитетах (проектных технических комитетах) по стандартизации, являются:",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 546.5912629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2379599999997,
+            "t": 623.0297029101563
+          },
+          "charspan": [
+            0,
+            360
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/39",
+      "text": "3.2. Пользователями  результатов  работ  указанных  систем,  полученных в том  числе  при  взаимодействии  с  федеральными  органами  исполнительной власти, организациями нефтегазового комплекса (по направлениям стандартизации и оценки соответствия), а также в ходе участия в технических комитетах (проектных технических комитетах) по стандартизации, являются:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "структурные подразделения ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 530.3912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 383.5,
+            "t": 542.4797029101563
+          },
+          "charspan": [
+            0,
+            40
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/40",
+      "text": "структурные подразделения ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "рабочие группы (экспертные группы, комиссии, комитеты, штабы, советы),  формируемые ПАО «Газпром» на временной или постоянной основе для  выполнения  отдельных  особо  важных  задач,  требующих  комплексного подхода  к  их  реализации,  выработки  согласованной  позиции  и  оперативного взаимодействия структурных подразделений 11 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 449.9912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.9977599999995,
+            "t": 526.3997029101563
+          },
+          "charspan": [
+            0,
+            333
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/41",
+      "text": "рабочие группы (экспертные группы, комиссии, комитеты, штабы, советы),  формируемые ПАО «Газпром» на временной или постоянной основе для  выполнения  отдельных  особо  важных  задач,  требующих  комплексного подхода  к  их  реализации,  выработки  согласованной  позиции  и  оперативного взаимодействия структурных подразделений 11 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "дочерние общества ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 433.79126291015626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 330.58,
+            "t": 445.87970291015625
+          },
+          "charspan": [
+            0,
+            32
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/42",
+      "text": "дочерние общества ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "инспекционные контрольные органы ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 417.6912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 437.26,
+            "t": 429.7797029101563
+          },
+          "charspan": [
+            0,
+            47
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/43",
+      "text": "инспекционные контрольные органы ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "изготовители  (разработчики)  и  поставщики  продукции,  работ (услуг), потребители.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 385.5312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.31788,
+            "t": 413.6997029101563
+          },
+          "charspan": [
+            0,
+            84
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/44",
+      "text": "изготовители  (разработчики)  и  поставщики  продукции,  работ (услуг), потребители."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "4. Направления развития в ПАО «Газпром» технического регулирования и стандартизации",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 347.1857210919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 160.94,
+            "r": 466.21,
+            "t": 375.0750629101563
+          },
+          "charspan": [
+            0,
+            83
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/45",
+      "text": "4. Направления развития в ПАО «Газпром» технического регулирования и стандартизации"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "label": "list_item",
+      "marker": "",
+      "orig": "4.1. Настоящей Концепцией определены следующие направления развития в области технического регулирования и стандартизации:",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 309.0912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 337.25970291015625
+          },
+          "charspan": [
+            0,
+            122
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/46",
+      "text": "4.1. Настоящей Концепцией определены следующие направления развития в области технического регулирования и стандартизации:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "1) внедрение процессного подхода 12 в работах по стандартизации при планировании, разработке и согласовании документов по стандартизации, предусматривающего взаимосвязь видов деятельности и процессов, реализуемых в ПАО «Газпром», подлежащих стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 244.74126291015625,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 306.64698291015634
+          },
+          "charspan": [
+            0,
+            256
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/47",
+      "text": "1) внедрение процессного подхода 12 в работах по стандартизации при планировании, разработке и согласовании документов по стандартизации, предусматривающего взаимосвязь видов деятельности и процессов, реализуемых в ПАО «Газпром», подлежащих стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "9 В соответствии с положениями СТО Газпром 1.0-2009 «Система стандартизации ОАО «Газпром». Основные положения».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 168.04398291015627,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.694,
+            "t": 193.99170291015628
+          },
+          "charspan": [
+            0,
+            111
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/48",
+      "text": "9 В соответствии с положениями СТО Газпром 1.0-2009 «Система стандартизации ОАО «Газпром». Основные положения»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "10 Приказ ПАО «Газпром» от 24.11.2016 № 751.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 154.24398291015632,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 315.77,
+            "t": 166.39170291015625
+          },
+          "charspan": [
+            0,
+            44
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/49",
+      "text": "10 Приказ ПАО «Газпром» от 24.11.2016 № 751."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "11 Приказ  ОАО  «Газпром»  от  21.06.2005  № 101  «Об  организации  работ  по  обеспечению потребностей ПАО «Газпром» в новых видах трубной продукции»; приказ ПАО «Газпром» от 29.05.2018 № 291 «О создании постоянно действующей Комиссии по внедрению в ПАО «Газпром» инновационной продукции»; Положение о рабочих группах ПАО «Газпром», утвержденное приказом ПАО «Газпром» от 28.09.2022 № 387.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 85.22398291015634,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 558.94,
+            "t": 152.5917029101563
+          },
+          "charspan": [
+            0,
+            390
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/50",
+      "text": "11 Приказ  ОАО  «Газпром»  от  21.06.2005  № 101  «Об  организации  работ  по  обеспечению потребностей ПАО «Газпром» в новых видах трубной продукции»; приказ ПАО «Газпром» от 29.05.2018 № 291 «О создании постоянно действующей Комиссии по внедрению в ПАО «Газпром» инновационной продукции»; Положение о рабочих группах ПАО «Газпром», утвержденное приказом ПАО «Газпром» от 28.09.2022 № 387."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "12 Пункт 2.3.4 ГОСТ Р ИСО 9000-2015 «Системы менеджмента качества. Основные положения и словарь».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.623982910156315,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.6499999999997,
+            "t": 83.57170291015632
+          },
+          "charspan": [
+            0,
+            97
+          ],
+          "page_no": 3
+        }
+      ],
+      "self_ref": "#/texts/51",
+      "text": "12 Пункт 2.3.4 ГОСТ Р ИСО 9000-2015 «Системы менеджмента качества. Основные положения и словарь»."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/52",
+      "text": "4"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "2) повышение  удовлетворенности  потребителей 13   качеством  продукции ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 745.7012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2182799999998,
+            "t": 774.0097029101563
+          },
+          "charspan": [
+            0,
+            86
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/53",
+      "text": "2) повышение  удовлетворенности  потребителей 13   качеством  продукции ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "3) повышение качества принимаемых управленческих решений;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 729.6212629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 495.25,
+            "t": 741.7097029101564
+          },
+          "charspan": [
+            0,
+            57
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/54",
+      "text": "3) повышение качества принимаемых управленческих решений;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "4) цифровая трансформация процессов в области технического регулирования и стандартизации за счет создания и применения информационных систем;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 681.3812629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.1368399999998,
+            "t": 725.6297029101563
+          },
+          "charspan": [
+            0,
+            142
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/55",
+      "text": "4) цифровая трансформация процессов в области технического регулирования и стандартизации за счет создания и применения информационных систем;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5) повышение  уровня  компетентности  и  профессионализма  работников ПАО «Газпром» в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 649.1012629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 677.3897029101563
+          },
+          "charspan": [
+            0,
+            138
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/56",
+      "text": "5) повышение  уровня  компетентности  и  профессионализма  работников ПАО «Газпром» в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6) применение компетенций ПАО «Газпром» 14 при установлении и  соблюдении требований к продукции нефтяной и газовой промышленности и  при  оценке  ее  соответствия  в  рамках  взаимодействия  ПАО «Газпром» с другими организациями, осуществляющими деятельность в сфере стандартизации и/или оценки соответствия.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 568.6712629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 645.1097029101563
+          },
+          "charspan": [
+            0,
+            309
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/57",
+      "text": "6) применение компетенций ПАО «Газпром» 14 при установлении и  соблюдении требований к продукции нефтяной и газовой промышленности и  при  оценке  ее  соответствия  в  рамках  взаимодействия  ПАО «Газпром» с другими организациями, осуществляющими деятельность в сфере стандартизации и/или оценки соответствия."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "5. Принципы, цели и задачи технического регулирования и стандартизации в ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 530.2057210919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 102.02,
+            "r": 525.13,
+            "t": 558.2150629101563
+          },
+          "charspan": [
+            0,
+            86
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/58",
+      "text": "5. Принципы, цели и задачи технического регулирования и стандартизации в ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5.1. Взаимодействие участников работ в области технического регулирования  и стандартизации  в ПАО «Газпром»  осуществляется  на  основе следующих принципов:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 476.9912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 520.6397029101563
+          },
+          "charspan": [
+            0,
+            157
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/59",
+      "text": "5.1. Взаимодействие участников работ в области технического регулирования  и стандартизации  в ПАО «Газпром»  осуществляется  на  основе следующих принципов:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "1) инновационность -направленность на технологическое развитие за счет внедрения стандартов ПАО «Газпром», содержащих положения, не  имеющие  аналогов  или  превосходящие  их,  и  применения  современных технологий автоматизации в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 398.2512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 473.3597029101563
+          },
+          "charspan": [
+            0,
+            283
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/60",
+      "text": "1) инновационность -направленность на технологическое развитие за счет внедрения стандартов ПАО «Газпром», содержащих положения, не  имеющие  аналогов  или  превосходящие  их,  и  применения  современных технологий автоматизации в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "2) преемственность - учет наилучшего международного, государственного и  корпоративного  опыта  и  знаний  в  области  технического  регулирования и стандартизации, в том числе практики ПАО «Газпром» в реализации государственной политики в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 319.4112629101562,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 394.49970291015626
+          },
+          "charspan": [
+            0,
+            292
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/61",
+      "text": "2) преемственность - учет наилучшего международного, государственного и  корпоративного  опыта  и  знаний  в  области  технического  регулирования и стандартизации, в том числе практики ПАО «Газпром» в реализации государственной политики в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "3) коллегиальность  -  исключение  возможности  единоличного  принятия решений при установлении требований в документах Системы стандартизации ПАО «Газпром», а также при допуске продукции к применению на производственных объектах ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 256.26126291015635,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.22764,
+            "t": 315.7797029101563
+          },
+          "charspan": [
+            0,
+            244
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/62",
+      "text": "3) коллегиальность  -  исключение  возможности  единоличного  принятия решений при установлении требований в документах Системы стандартизации ПАО «Газпром», а также при допуске продукции к применению на производственных объектах ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "4) независимость - осуществление деятельности в области технического регулирования и стандартизации равным образом независимо от места происхождения продукции, выполнения работ и оказания услуг, видов или особенностей сделок и/или лиц, которые являются изготовителями, исполнителями, продавцами, приобретателями;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 177.54126291015632,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 252.6297029101563
+          },
+          "charspan": [
+            0,
+            312
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/63",
+      "text": "4) независимость - осуществление деятельности в области технического регулирования и стандартизации равным образом независимо от места происхождения продукции, выполнения работ и оказания услуг, видов или особенностей сделок и/или лиц, которые являются изготовителями, исполнителями, продавцами, приобретателями;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5) беспристрастность - отсутствие коммерческих, финансовых или иных факторов, компрометирующих деятельность участников работ в области технического регулирования и стандартизации в ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 130.62126291015625,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3041999999998,
+            "t": 173.90970291015628
+          },
+          "charspan": [
+            0,
+            195
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/64",
+      "text": "5) беспристрастность - отсутствие коммерческих, финансовых или иных факторов, компрометирующих деятельность участников работ в области технического регулирования и стандартизации в ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "13 Пункт 3.2 ГОСТ Р ИСО 10004-2020 «Менеджмент качества. Удовлетворенность потребителей. Руководящие указания по мониторингу и измерению».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 85.22398291015634,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.6259999999997,
+            "t": 111.17170291015623
+          },
+          "charspan": [
+            0,
+            138
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/65",
+      "text": "13 Пункт 3.2 ГОСТ Р ИСО 10004-2020 «Менеджмент качества. Удовлетворенность потребителей. Руководящие указания по мониторингу и измерению»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "14 Например, ТР ЕАЭС 049/2020 «О требованиях к магистральным трубопроводам для транспортирования жидких и газообразных углеводородов».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.623982910156315,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.682,
+            "t": 83.57170291015632
+          },
+          "charspan": [
+            0,
+            134
+          ],
+          "page_no": 4
+        }
+      ],
+      "self_ref": "#/texts/66",
+      "text": "14 Например, ТР ЕАЭС 049/2020 «О требованиях к магистральным трубопроводам для транспортирования жидких и газообразных углеводородов»."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/67",
+      "text": "5"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6) открытость -возможность участия в процедурах разработки, актуализации и внедрения документов в области технического регулирования и стандартизации  для  всех  участников  отношений,  определенных  настоящей Концепцией, доступность информации о соответствующих документах в рассматриваемой области деятельности;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 697.4612629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 774.0097029101563
+          },
+          "charspan": [
+            0,
+            313
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/68",
+      "text": "6) открытость -возможность участия в процедурах разработки, актуализации и внедрения документов в области технического регулирования и стандартизации  для  всех  участников  отношений,  определенных  настоящей Концепцией, доступность информации о соответствующих документах в рассматриваемой области деятельности;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "7) оптимальность  -  обеспечение  выполнимых  требований,  определяемых документами и процедурами в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 649.1012629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 693.4697029101563
+          },
+          "charspan": [
+            0,
+            152
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/69",
+      "text": "7) оптимальность  -  обеспечение  выполнимых  требований,  определяемых документами и процедурами в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "8) системность -обеспечение деятельности в области технического регулирования и стандартизации в общей информационной среде;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 616.9412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2895599999997,
+            "t": 645.1097029101563
+          },
+          "charspan": [
+            0,
+            124
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/70",
+      "text": "8) системность -обеспечение деятельности в области технического регулирования и стандартизации в общей информационной среде;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "9) объективность - недопустимость при проведении оценки соответствия субъективных убеждений в отношении оцениваемого объекта, формулирование выводов о соответствии оцениваемого объекта путем фактического сопоставления с предъявляемыми требованиями на научно-методической и практической основе;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 536.3912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 612.9497029101564
+          },
+          "charspan": [
+            0,
+            293
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/71",
+      "text": "9) объективность - недопустимость при проведении оценки соответствия субъективных убеждений в отношении оцениваемого объекта, формулирование выводов о соответствии оцениваемого объекта путем фактического сопоставления с предъявляемыми требованиями на научно-методической и практической основе;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "10) контролепригодность  -  установление  в  документах  по  стандартизации четко сформулированных, однозначно понимаемых, конкретных и проверяемых требований и параметров, на соответствие которым проводится оценка объекта.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 488.1512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.15232,
+            "t": 532.3997029101563
+          },
+          "charspan": [
+            0,
+            223
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/72",
+      "text": "10) контролепригодность  -  установление  в  документах  по  стандартизации четко сформулированных, однозначно понимаемых, конкретных и проверяемых требований и параметров, на соответствие которым проводится оценка объекта."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5.2. Целями развития отношений в области технического регулирования и стандартизации в ПАО «Газпром» являются:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 455.9912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.6899999999999,
+            "t": 484.1597029101563
+          },
+          "charspan": [
+            0,
+            110
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/73",
+      "text": "5.2. Целями развития отношений в области технического регулирования и стандартизации в ПАО «Газпром» являются:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "1) обеспечение технической, технологической и экологической безопасности в рамках деятельности ПАО «Газпром» и его дочерних обществ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 423.6912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3184799999999,
+            "t": 451.87970291015625
+          },
+          "charspan": [
+            0,
+            132
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/74",
+      "text": "1) обеспечение технической, технологической и экологической безопасности в рамках деятельности ПАО «Газпром» и его дочерних обществ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "2) повышение качества и конкурентоспособности продукции, работ и услуг ПАО «Газпром», в том числе на международном рынке;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 391.5312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.9991999999996,
+            "t": 419.6997029101563
+          },
+          "charspan": [
+            0,
+            121
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/75",
+      "text": "2) повышение качества и конкурентоспособности продукции, работ и услуг ПАО «Газпром», в том числе на международном рынке;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "3) содействие  в  сохранении  приоритетных  рынков  для  ПАО «Газпром», торгово-экономического, научно-технического и технологического партнерства в процессе установления требований и определения процедур оценки соответствия при соблюдении интересов ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 327.0912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 387.5397029101563
+          },
+          "charspan": [
+            0,
+            264
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/76",
+      "text": "3) содействие  в  сохранении  приоритетных  рынков  для  ПАО «Газпром», торгово-экономического, научно-технического и технологического партнерства в процессе установления требований и определения процедур оценки соответствия при соблюдении интересов ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "4) содействие  внедрению  инноваций  в  деятельность  ПАО «Газпром» и его дочерних обществ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 294.9312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.6899999999999,
+            "t": 323.09970291015634
+          },
+          "charspan": [
+            0,
+            91
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/77",
+      "text": "4) содействие  внедрению  инноваций  в  деятельность  ПАО «Газпром» и его дочерних обществ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5) достижение лидерства ПАО «Газпром» в области технического регулирования, стандартизации и систем качества среди организаций нефтегазового комплекса;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 246.66126291015632,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2949599999998,
+            "t": 290.93970291015626
+          },
+          "charspan": [
+            0,
+            151
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/78",
+      "text": "5) достижение лидерства ПАО «Газпром» в области технического регулирования, стандартизации и систем качества среди организаций нефтегазового комплекса;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6) обеспечение потребностей ПАО «Газпром» в эффективном регулировании процессов для достижения долговременной стабильности качества продукции.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 214.38126291015624,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.1976799999998,
+            "t": 242.54970291015627
+          },
+          "charspan": [
+            0,
+            142
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/79",
+      "text": "6) обеспечение потребностей ПАО «Газпром» в эффективном регулировании процессов для достижения долговременной стабильности качества продукции."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5.3.  Достижение  целей  развития,  определенных  настоящей  Концепцией, обеспечивается путем решения следующих приоритетных задач:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 182.22126291015627,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.0499599999999,
+            "t": 210.3897029101563
+          },
+          "charspan": [
+            0,
+            131
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/80",
+      "text": "5.3.  Достижение  целей  развития,  определенных  настоящей  Концепцией, обеспечивается путем решения следующих приоритетных задач:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "1) постоянное совершенствование структуры управления Системы стандартизации ПАО «Газпром» за счет:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 150.0612629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3164400000002,
+            "t": 178.22970291015622
+          },
+          "charspan": [
+            0,
+            98
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/81",
+      "text": "1) постоянное совершенствование структуры управления Системы стандартизации ПАО «Газпром» за счет:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "структуризации  документов  Системы  стандартизации  ПАО «Газпром» по основным видам деятельности ПАО «Газпром» во взаимосвязи с процессами; совершенствования механизмов управления категориями документов",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 101.6812629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 145.94970291015625
+          },
+          "charspan": [
+            0,
+            203
+          ],
+          "page_no": 5
+        }
+      ],
+      "self_ref": "#/texts/82",
+      "text": "структуризации  документов  Системы  стандартизации  ПАО «Газпром» по основным видам деятельности ПАО «Газпром» во взаимосвязи с процессами; совершенствования механизмов управления категориями документов"
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/83",
+      "text": "6"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Системы стандартизации ПАО «Газпром» 15 , в которых устанавливаются требования, исключаются их избыточность, противоречивость и недостаточность;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 745.7012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2102399999998,
+            "t": 774.0097029101563
+          },
+          "charspan": [
+            0,
+            144
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/84",
+      "text": "Системы стандартизации ПАО «Газпром» 15 , в которых устанавливаются требования, исключаются их избыточность, противоречивость и недостаточность;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "разработки межгосударственных и национальных (в том числе предварительных) стандартов в областях деятельности ПАО «Газпром» преимущественно на основе апробированных документов Системы стандартизации ПАО «Газпром» 16 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 681.3812629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.31452,
+            "t": 741.7097029101564
+          },
+          "charspan": [
+            0,
+            217
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/85",
+      "text": "разработки межгосударственных и национальных (в том числе предварительных) стандартов в областях деятельности ПАО «Газпром» преимущественно на основе апробированных документов Системы стандартизации ПАО «Газпром» 16 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "участия представителей ПАО «Газпром» и его дочерних обществ в технических комитетах по стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 649.1012629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2005199999999,
+            "t": 677.3897029101563
+          },
+          "charspan": [
+            0,
+            102
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/86",
+      "text": "участия представителей ПАО «Газпром» и его дочерних обществ в технических комитетах по стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "2) создание эффективной единой системы оценки соответствия продукции за счет:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 617.5412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2965199999999,
+            "t": 645.3497029101563
+          },
+          "charspan": [
+            0,
+            77
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/87",
+      "text": "2) создание эффективной единой системы оценки соответствия продукции за счет:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "применения дифференцированного и экономически обоснованного подхода к выбору формы оценки соответствия 17 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 585.9512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2244,
+            "t": 613.9097029101563
+          },
+          "charspan": [
+            0,
+            107
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/88",
+      "text": "применения дифференцированного и экономически обоснованного подхода к выбору формы оценки соответствия 17 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "совершенствования  документов  Системы  добровольной  сертификации ИНТЕРГАЗСЕРТ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 554.3912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.0023199999997,
+            "t": 582.3197029101564
+          },
+          "charspan": [
+            0,
+            80
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/89",
+      "text": "совершенствования  документов  Системы  добровольной  сертификации ИНТЕРГАЗСЕРТ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "оптимизации механизмов оценки соответствия;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 538.6712629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 106.34,
+            "r": 394.9,
+            "t": 550.7597029101563
+          },
+          "charspan": [
+            0,
+            43
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/90",
+      "text": "оптимизации механизмов оценки соответствия;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "обеспечения планирования и организации проведения контроля за соблюдением требований ПАО «Газпром» к продукции, работам (услугам);",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 507.1112629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.9859999999996,
+            "t": 535.0397029101563
+          },
+          "charspan": [
+            0,
+            130
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/91",
+      "text": "обеспечения планирования и организации проведения контроля за соблюдением требований ПАО «Газпром» к продукции, работам (услугам);"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "гармонизации процессов сертификации в Системе добровольной сертификации ИНТЕРГАЗСЕРТ и допуска материально-технических ресурсов для  применения  на  объектах  ПАО «Газпром»,  повышения  эффективности указанных процессов;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 444.1112629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2967599999998,
+            "t": 503.4797029101563
+          },
+          "charspan": [
+            0,
+            220
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/92",
+      "text": "гармонизации процессов сертификации в Системе добровольной сертификации ИНТЕРГАЗСЕРТ и допуска материально-технических ресурсов для  применения  на  объектах  ПАО «Газпром»,  повышения  эффективности указанных процессов;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "3) создание информационных систем в области технического регулирования и стандартизации, обеспечение их эффективного взаимодействия и постоянного совершенствования;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 396.8112629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 440.4597029101563
+          },
+          "charspan": [
+            0,
+            164
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/93",
+      "text": "3) создание информационных систем в области технического регулирования и стандартизации, обеспечение их эффективного взаимодействия и постоянного совершенствования;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "4) повышение уровня цифровизации документов Системы стандартизации ПАО «Газпром» до машиночитаемых 18  и машинопонимаемых 19 ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 365.2512629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 393.17970291015627
+          },
+          "charspan": [
+            0,
+            126
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/94",
+      "text": "4) повышение уровня цифровизации документов Системы стандартизации ПАО «Газпром» до машиночитаемых 18  и машинопонимаемых 19 ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "5) поддержание в актуальном состоянии нормативной базы ПАО «Газпром» в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 333.6912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3097200000002,
+            "t": 361.61970291015626
+          },
+          "charspan": [
+            0,
+            123
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/95",
+      "text": "5) поддержание в актуальном состоянии нормативной базы ПАО «Газпром» в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6) совершенствование  системы  менеджмента  качества  ПАО «Газпром», его дочерних обществ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 302.25126291015636,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3228,
+            "t": 330.05970291015626
+          },
+          "charspan": [
+            0,
+            90
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/96",
+      "text": "6) совершенствование  системы  менеджмента  качества  ПАО «Газпром», его дочерних обществ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "7) повышение уровня профессиональной компетенции и ответственности участников работ в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 270.6912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2621999999999,
+            "t": 298.4997029101562
+          },
+          "charspan": [
+            0,
+            138
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/97",
+      "text": "7) повышение уровня профессиональной компетенции и ответственности участников работ в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "15 Например, установление нормативных положений в документах Системы стандартизации ПАО «Газпром»  за  счет апробации  технических  решений с  применением  Р  Газпром и последующая модификация рекомендаций ПАО «Газпром» в СТО Газпром.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 209.44398291015636,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 558.82,
+            "t": 249.19170291015632
+          },
+          "charspan": [
+            0,
+            234
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/98",
+      "text": "15 Например, установление нормативных положений в документах Системы стандартизации ПАО «Газпром»  за  счет апробации  технических  решений с  применением  Р  Газпром и последующая модификация рекомендаций ПАО «Газпром» в СТО Газпром."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "16 Приказ  Росстандарта  от  02.08.2018  № 1644  «Об  организации  деятельности  технического комитета  по  стандартизации  «Нефтяная  и  газовая  промышленность»  (с  последующими изменениями).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 168.04398291015627,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.8199999999999,
+            "t": 207.79170291015635
+          },
+          "charspan": [
+            0,
+            194
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/99",
+      "text": "16 Приказ  Росстандарта  от  02.08.2018  № 1644  «Об  организации  деятельности  технического комитета  по  стандартизации  «Нефтяная  и  газовая  промышленность»  (с  последующими изменениями)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "17 Оценка  соответствия  -  прямое  или  косвенное  определение  соблюдения  требований, предъявляемых к объекту (испытания, экспертиза, сертификация и прочие формы).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 140.44398291015636,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.5659999999997,
+            "t": 166.39170291015625
+          },
+          "charspan": [
+            0,
+            166
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/100",
+      "text": "17 Оценка  соответствия  -  прямое  или  косвенное  определение  соблюдения  требований, предъявляемых к объекту (испытания, экспертиза, сертификация и прочие формы)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "18 Например,  документы  в  электронной  форме,  которые  представлены  в  виде,  пригодном для восприятия человеком с применением информационных систем.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 112.84398291015623,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 558.7,
+            "t": 138.79170291015635
+          },
+          "charspan": [
+            0,
+            153
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/101",
+      "text": "18 Например,  документы  в  электронной  форме,  которые  представлены  в  виде,  пригодном для восприятия человеком с применением информационных систем."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "19 Например,  документы  в  электронной  форме,  которые  применяются  информационной системой  при  реализации  машиноориентированных  информационных  сервисов,  а  также для непосредственного выполнения действий в другой информационной системе без участия человека.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.623982910156315,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 558.94,
+            "t": 111.17170291015623
+          },
+          "charspan": [
+            0,
+            267
+          ],
+          "page_no": 6
+        }
+      ],
+      "self_ref": "#/texts/102",
+      "text": "19 Например,  документы  в  электронной  форме,  которые  применяются  информационной системой  при  реализации  машиноориентированных  информационных  сервисов,  а  также для непосредственного выполнения действий в другой информационной системе без участия человека."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/103",
+      "text": "7"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "8) совершенствование программ подготовки кадров 20 в области технического регулирования и стандартизации;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 745.7012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2865599999998,
+            "t": 775.5569829101563
+          },
+          "charspan": [
+            0,
+            105
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/104",
+      "text": "8) совершенствование программ подготовки кадров 20 в области технического регулирования и стандартизации;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "9) участие  в  формировании  и  реализации  государственной  политики в области технического регулирования и стандартизации, а также при  осуществлении  корпоративных  отношений  ПАО «Газпром»  с  другими организациями в рамках деятельности по техническому регулированию и стандартизации.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 665.3012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 741.7097029101564
+          },
+          "charspan": [
+            0,
+            288
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/105",
+      "text": "9) участие  в  формировании  и  реализации  государственной  политики в области технического регулирования и стандартизации, а также при  осуществлении  корпоративных  отношений  ПАО «Газпром»  с  другими организациями в рамках деятельности по техническому регулированию и стандартизации."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "6. Реализация Концепции",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 642.9157210919745,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 230.21,
+            "r": 397.06,
+            "t": 654.7250629101563
+          },
+          "charspan": [
+            0,
+            23
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/106",
+      "text": "6. Реализация Концепции"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6.1. Реализация настоящей Концепции осуществляется путем разработки и ежегодной актуализации Плана мероприятий по совершенствованию и развитию  технического  регулирования  и  стандартизации  в  ПАО «Газпром» (далее - План мероприятий), содержащего целевые показатели по направлениям развития отношений в области технического регулирования и стандартизации в ПАО «Газпром» на трехлетний период, их характеристики и значения, а также перечень мероприятий, необходимых для их достижения.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 524.3912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.6899999999999,
+            "t": 633.1097029101563
+          },
+          "charspan": [
+            0,
+            485
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/107",
+      "text": "6.1. Реализация настоящей Концепции осуществляется путем разработки и ежегодной актуализации Плана мероприятий по совершенствованию и развитию  технического  регулирования  и  стандартизации  в  ПАО «Газпром» (далее - План мероприятий), содержащего целевые показатели по направлениям развития отношений в области технического регулирования и стандартизации в ПАО «Газпром» на трехлетний период, их характеристики и значения, а также перечень мероприятий, необходимых для их достижения."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "План мероприятий разрабатывается структурным подразделением ПАО «Газпром», отвечающим за методологическое, организационное и информационное обеспечение функционирования и развития Системы стандартизации ПАО «Газпром» 21 (Руководящим органом Системы стандартизации  ПАО  «Газпром»,  далее  -  РОСС),  в  соответствии  с  порядком, установленным в ПАО «Газпром», на основе предложений структурных подразделений ПАО «Газпром» и утверждается распорядительным документом заместителя Председателя Правления ПАО «Газпром», координирующего деятельность в области технического регулирования и стандартизации.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 379.5312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.6899999999999,
+            "t": 520.3997029101563
+          },
+          "charspan": [
+            0,
+            599
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/108",
+      "text": "План мероприятий разрабатывается структурным подразделением ПАО «Газпром», отвечающим за методологическое, организационное и информационное обеспечение функционирования и развития Системы стандартизации ПАО «Газпром» 21 (Руководящим органом Системы стандартизации  ПАО  «Газпром»,  далее  -  РОСС),  в  соответствии  с  порядком, установленным в ПАО «Газпром», на основе предложений структурных подразделений ПАО «Газпром» и утверждается распорядительным документом заместителя Председателя Правления ПАО «Газпром», координирующего деятельность в области технического регулирования и стандартизации."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Форма Плана мероприятий представлена в приложении № 2 к настоящей Концепции.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 347.3712629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2614799999999,
+            "t": 375.5397029101563
+          },
+          "charspan": [
+            0,
+            76
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/109",
+      "text": "Форма Плана мероприятий представлена в приложении № 2 к настоящей Концепции."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6.2. Для  достижения  целевых  показателей  в  области  стандартизации, устанавливаемых  Планом  мероприятий,  утверждается  и  ежегодно  уточняется Программа  мероприятий  по  техническому  регулированию  и  стандартизации в ПАО «Газпром» и его дочерних обществах 22 .",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 282.9312629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 343.25970291015625
+          },
+          "charspan": [
+            0,
+            269
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/110",
+      "text": "6.2. Для  достижения  целевых  показателей  в  области  стандартизации, устанавливаемых  Планом  мероприятий,  утверждается  и  ежегодно  уточняется Программа  мероприятий  по  техническому  регулированию  и  стандартизации в ПАО «Газпром» и его дочерних обществах 22 ."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6.3. Оценка достижения целей развития отношений в области технического регулирования и стандартизации в ПАО «Газпром», определенных настоящей Концепцией, осуществляется в соответствии с целевыми показателями, устанавливаемыми Планом мероприятий, на ежегодной основе РОСС совместно со структурным  подразделением  ПАО «Газпром»,  осуществляющим  функции по  координации  деятельности  систем  добровольной  сертификации  дочерних",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 186.3012629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 278.9097029101563
+          },
+          "charspan": [
+            0,
+            428
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/111",
+      "text": "6.3. Оценка достижения целей развития отношений в области технического регулирования и стандартизации в ПАО «Газпром», определенных настоящей Концепцией, осуществляется в соответствии с целевыми показателями, устанавливаемыми Планом мероприятий, на ежегодной основе РОСС совместно со структурным  подразделением  ПАО «Газпром»,  осуществляющим  функции по  координации  деятельности  систем  добровольной  сертификации  дочерних"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "20 Например, программы Частного образовательного учреждения дополнительного профессионального  образования «Газпром  корпоративный  институт»  по  направлениям «Системы менеджмента и сертификации» и «Стандартизация в газовой отрасли».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 126.6439829101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.82,
+            "t": 166.39170291015625
+          },
+          "charspan": [
+            0,
+            234
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/112",
+      "text": "20 Например, программы Частного образовательного учреждения дополнительного профессионального  образования «Газпром  корпоративный  институт»  по  направлениям «Системы менеджмента и сертификации» и «Стандартизация в газовой отрасли»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "21 В соответствии с Положением о Департаменте 623 (утверждено приказом ПАО «Газпром» от 16.12.2019 № 567) функции возложены на Департамент 623 (О.Е. Аксютин).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 99.02398291015629,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.6339999999999,
+            "t": 124.99170291015628
+          },
+          "charspan": [
+            0,
+            158
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/113",
+      "text": "21 В соответствии с Положением о Департаменте 623 (утверждено приказом ПАО «Газпром» от 16.12.2019 № 567) функции возложены на Департамент 623 (О.Е. Аксютин)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "22 СТО Газпром 1.2-2023 «Система стандартизации ПАО «Газпром». Планирование и контроль выполнения  мероприятий  по  техническому  регулированию  и  стандартизации.  Порядок организации».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.623982910156315,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 555.706,
+            "t": 97.37170291015627
+          },
+          "charspan": [
+            0,
+            186
+          ],
+          "page_no": 7
+        }
+      ],
+      "self_ref": "#/texts/114",
+      "text": "22 СТО Газпром 1.2-2023 «Система стандартизации ПАО «Газпром». Планирование и контроль выполнения  мероприятий  по  техническому  регулированию  и  стандартизации.  Порядок организации»."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 791.4412629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 308.33,
+            "r": 318.8,
+            "t": 803.5297029101563
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/115",
+      "text": "8"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "обществ и организаций ПАО «Газпром» и контролю за их функционированием 23 и функции  по организации, обеспечению функционирования  и  развития Системы менеджмента качества ПАО «Газпром» 23 , и со структурными подразделениями ПАО «Газпром», представившими предложения при формировании Плана мероприятий.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 697.4612629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.6899999999999,
+            "t": 774.0097029101563
+          },
+          "charspan": [
+            0,
+            302
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/116",
+      "text": "обществ и организаций ПАО «Газпром» и контролю за их функционированием 23 и функции  по организации, обеспечению функционирования  и  развития Системы менеджмента качества ПАО «Газпром» 23 , и со структурными подразделениями ПАО «Газпром», представившими предложения при формировании Плана мероприятий."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Порядок  разработки  и  ежегодной  актуализации  Плана  мероприятий, содержащего  методику  формирования  ключевых  показателей,  определяется в установленном в ПАО «Газпром» порядке.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 649.1012629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 693.4697029101563
+          },
+          "charspan": [
+            0,
+            183
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/117",
+      "text": "Порядок  разработки  и  ежегодной  актуализации  Плана  мероприятий, содержащего  методику  формирования  ключевых  показателей,  определяется в установленном в ПАО «Газпром» порядке."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6.4. Информация о результатах оценки направляется заместителю Председателя  Правления  ПАО «Газпром»,  координирующему  деятельность в области технического регулирования и стандартизации, для принятия соответствующих управленческих решений и последующей подготовки ежегодного  доклада  Председателю  Правления  ПАО «Газпром»  о  реализации Концепции технического регулирования и стандартизации ПАО «Газпром».",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 552.5912629101564,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 645.1097029101563
+          },
+          "charspan": [
+            0,
+            408
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/118",
+      "text": "6.4. Информация о результатах оценки направляется заместителю Председателя  Правления  ПАО «Газпром»,  координирующему  деятельность в области технического регулирования и стандартизации, для принятия соответствующих управленческих решений и последующей подготовки ежегодного  доклада  Председателю  Правления  ПАО «Газпром»  о  реализации Концепции технического регулирования и стандартизации ПАО «Газпром»."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "6.5. Достижение целей  развития  отношений  в  области  технического регулирования и стандартизации, определенных настоящей Концепцией, позволит:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 504.23126291015626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.33,
+            "t": 548.4797029101563
+          },
+          "charspan": [
+            0,
+            145
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/119",
+      "text": "6.5. Достижение целей  развития  отношений  в  области  технического регулирования и стандартизации, определенных настоящей Концепцией, позволит:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "создать организационную структуру управления единой системой оценки соответствия в ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 472.0712629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.3006,
+            "t": 500.23970291015627
+          },
+          "charspan": [
+            0,
+            97
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/120",
+      "text": "создать организационную структуру управления единой системой оценки соответствия в ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "обеспечить  сокращение  сроков  разработки  внедрения  в  деятельность ПАО «Газпром» и его дочерних обществ документов по стандартизации за счет оптимизации  процедур  определения  целесообразности  разработки,  порядка их согласования и утверждения;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 407.6112629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.81,
+            "t": 468.0797029101563
+          },
+          "charspan": [
+            0,
+            250
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/121",
+      "text": "обеспечить  сокращение  сроков  разработки  внедрения  в  деятельность ПАО «Газпром» и его дочерних обществ документов по стандартизации за счет оптимизации  процедур  определения  целесообразности  разработки,  порядка их согласования и утверждения;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "обеспечить сокращение затрат на разработку документов Системы стандартизации  ПАО «Газпром»,  для  формирования  которых  не  требуется выполнение научно-исследовательских работ;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 359.3712629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2977199999998,
+            "t": 403.61970291015626
+          },
+          "charspan": [
+            0,
+            178
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/122",
+      "text": "обеспечить сокращение затрат на разработку документов Системы стандартизации  ПАО «Газпром»,  для  формирования  которых  не  требуется выполнение научно-исследовательских работ;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "повысить  качество  разработки  документов  по  стандартизации  за  счет применения информационных систем;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 327.0912629101563,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.31416,
+            "t": 355.25970291015625
+          },
+          "charspan": [
+            0,
+            106
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/123",
+      "text": "повысить  качество  разработки  документов  по  стандартизации  за  счет применения информационных систем;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "обеспечить сокращение административных и финансовых издержек при выполнении  работ  по  оценке  соответствия  продукции  установленным требованиям;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 278.85126291015627,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.1929599999999,
+            "t": 323.09970291015634
+          },
+          "charspan": [
+            0,
+            147
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/124",
+      "text": "обеспечить сокращение административных и финансовых издержек при выполнении  работ  по  оценке  соответствия  продукции  установленным требованиям;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "стимулировать использование инновационных технологий в сфере технического регулирования и стандартизации в ПАО «Газпром»;",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 246.66126291015632,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.0438399999996,
+            "t": 274.82970291015636
+          },
+          "charspan": [
+            0,
+            121
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/125",
+      "text": "стимулировать использование инновационных технологий в сфере технического регулирования и стандартизации в ПАО «Газпром»;"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "повысить уровень профессиональных компетенций работников в области технического регулирования и стандартизации.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 214.38126291015624,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 556.2913599999998,
+            "t": 242.54970291015627
+          },
+          "charspan": [
+            0,
+            111
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/126",
+      "text": "повысить уровень профессиональных компетенций работников в области технического регулирования и стандартизации."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "orig": "23 В соответствии с Положением о Департаменте 646 (утверждено приказом ПАО «Газпром» от 02.07.2019 № 271) функции возложены на Департамент 646 (Н.В. Чекалина).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 57.623982910156315,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 70.944,
+            "r": 559.06,
+            "t": 83.57170291015632
+          },
+          "charspan": [
+            0,
+            159
+          ],
+          "page_no": 8
+        }
+      ],
+      "self_ref": "#/texts/127",
+      "text": "23 В соответствии с Положением о Департаменте 646 (утверждено приказом ПАО «Газпром» от 02.07.2019 № 271) функции возложены на Департамент 646 (Н.В. Чекалина)."
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 544.8412873242188,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 417.43,
+            "r": 427.9,
+            "t": 556.9297273242188
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/128",
+      "text": "9"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "orig": "Приложение № 1 к Концепции технического регулирования и стандартизации ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 477.1412873242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 524.35,
+            "r": 785.1899999999999,
+            "t": 521.3897273242187
+          },
+          "charspan": [
+            0,
+            84
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/129",
+      "text": "Приложение № 1 к Концепции технического регулирования и стандартизации ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "Общая схема взаимодействия участников работ в области технического регулирования и стандартизации в ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 428.59574550603685,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 196.58,
+            "r": 684.25,
+            "t": 456.60508732421874
+          },
+          "charspan": [
+            0,
+            113
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/130",
+      "text": "Общая схема взаимодействия участников работ в области технического регулирования и стандартизации в ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Председатель Правления ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 378.9900073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 253.49,
+            "r": 449.30199999999996,
+            "t": 389.6860073242187
+          },
+          "charspan": [
+            0,
+            36
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/131",
+      "text": "Председатель Правления ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Структурные подразделения ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 170.53000732421867,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 246.29,
+            "r": 455.30199999999996,
+            "t": 181.2260073242187
+          },
+          "charspan": [
+            0,
+            39
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/132",
+      "text": "Структурные подразделения ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Система",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 315.03000732421873,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 332.81,
+            "r": 375.3499999999999,
+            "t": 325.7260073242187
+          },
+          "charspan": [
+            0,
+            7
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/133",
+      "text": "Система"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "добровольной",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 301.2300073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 319.73,
+            "r": 388.346,
+            "t": 311.9260073242187
+          },
+          "charspan": [
+            0,
+            12
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/134",
+      "text": "добровольной"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "сертификации",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 287.5460873242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 319.73,
+            "r": 388.41108800000006,
+            "t": 298.2634793242187
+          },
+          "charspan": [
+            0,
+            12
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/135",
+      "text": "сертификации"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "ИНТЕРГАЗСЕРТ",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 273.7300073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 314.09,
+            "r": 391.442,
+            "t": 284.4260073242187
+          },
+          "charspan": [
+            0,
+            12
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/136",
+      "text": "ИНТЕРГАЗСЕРТ"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Руководящий орган -",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 253.21000732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 304.61,
+            "r": 402.38599999999997,
+            "t": 263.9060073242187
+          },
+          "charspan": [
+            0,
+            19
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/137",
+      "text": "Руководящий орган -"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Департамент 646",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 238.93000732421865,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 312.29,
+            "r": 391.9579999999998,
+            "t": 249.62600732421868
+          },
+          "charspan": [
+            0,
+            15
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/138",
+      "text": "Департамент 646"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Система",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 313.4700073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 160.1,
+            "r": 202.64000000000001,
+            "t": 324.1660073242187
+          },
+          "charspan": [
+            0,
+            7
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/139",
+      "text": "Система"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "стандартизации",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 299.6700073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 143.18,
+            "r": 222.356,
+            "t": 310.3660073242187
+          },
+          "charspan": [
+            0,
+            14
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/140",
+      "text": "стандартизации"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 285.6260873242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 143.42,
+            "r": 216.822944,
+            "t": 296.34347932421866
+          },
+          "charspan": [
+            0,
+            13
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/141",
+      "text": "ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Руководящий орган -",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 253.4500073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 133.58,
+            "r": 230.87599999999998,
+            "t": 264.1460073242187
+          },
+          "charspan": [
+            0,
+            19
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/142",
+      "text": "Руководящий орган -"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Департамент 623",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 239.17000732421866,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 141.02,
+            "r": 220.68800000000007,
+            "t": 249.86600732421869
+          },
+          "charspan": [
+            0,
+            15
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/143",
+      "text": "Департамент 623"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Система",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 319.83000732421874,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 503.11,
+            "r": 545.6499999999999,
+            "t": 330.5260073242187
+          },
+          "charspan": [
+            0,
+            7
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/144",
+      "text": "Система"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "менеджмента",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 306.15000732421873,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 491.35,
+            "r": 557.2779999999999,
+            "t": 316.8460073242187
+          },
+          "charspan": [
+            0,
+            11
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/145",
+      "text": "менеджмента"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "качества",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 292.3500073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 502.75,
+            "r": 548.686,
+            "t": 303.0460073242187
+          },
+          "charspan": [
+            0,
+            8
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/146",
+      "text": "качества"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 278.53000732421873,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 486.31,
+            "r": 559.702,
+            "t": 289.2260073242187
+          },
+          "charspan": [
+            0,
+            13
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/147",
+      "text": "ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Совет по качеству",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 253.21000732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 479.95,
+            "r": 566.7459999999998,
+            "t": 263.9060073242187
+          },
+          "charspan": [
+            0,
+            17
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/148",
+      "text": "Совет по качеству"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 238.93000732421865,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 485.35,
+            "r": 558.742,
+            "t": 249.62600732421868
+          },
+          "charspan": [
+            0,
+            13
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/149",
+      "text": "ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Федеральные",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 335.9100073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 663.94,
+            "r": 730.9359999999999,
+            "t": 346.6060073242187
+          },
+          "charspan": [
+            0,
+            11
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/150",
+      "text": "Федеральные"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "органы",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 322.1100073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 679.66,
+            "r": 715.2759999999998,
+            "t": 332.8060073242187
+          },
+          "charspan": [
+            0,
+            6
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/151",
+      "text": "органы"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "исполнительной",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 308.3100073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 658.42,
+            "r": 736.3239999999996,
+            "t": 319.0060073242187
+          },
+          "charspan": [
+            0,
+            14
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/152",
+      "text": "исполнительной"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "власти",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 294.27000732421874,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 680.38,
+            "r": 711.7719999999998,
+            "t": 304.9660073242187
+          },
+          "charspan": [
+            0,
+            6
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/153",
+      "text": "власти"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Организации",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 246.4900073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 666.1,
+            "r": 728.6679999999997,
+            "t": 257.1860073242187
+          },
+          "charspan": [
+            0,
+            11
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/154",
+      "text": "Организации"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "нефтегазового",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 232.6900073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 662.14,
+            "r": 732.7239999999997,
+            "t": 243.38600732421867
+          },
+          "charspan": [
+            0,
+            13
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/155",
+      "text": "нефтегазового"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "комплекса",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 218.8900073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 672.1,
+            "r": 725.356,
+            "t": 229.5860073242187
+          },
+          "charspan": [
+            0,
+            9
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/156",
+      "text": "комплекса"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "(по направлениям",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 205.21000732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 654.34,
+            "r": 740.5239999999997,
+            "t": 215.90600732421865
+          },
+          "charspan": [
+            0,
+            16
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/157",
+      "text": "(по направлениям"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "стандартизации",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 191.41000732421867,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 659.14,
+            "r": 738.336,
+            "t": 202.1060073242187
+          },
+          "charspan": [
+            0,
+            14
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/158",
+      "text": "стандартизации"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "и оценки",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 177.6100073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 675.94,
+            "r": 718.8279999999999,
+            "t": 188.30600732421868
+          },
+          "charspan": [
+            0,
+            8
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/159",
+      "text": "и оценки"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "соответствия)",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 163.5700073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 663.94,
+            "r": 728.2479999999996,
+            "t": 174.26600732421866
+          },
+          "charspan": [
+            0,
+            13
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/160",
+      "text": "соответствия)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Дочерние общества ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 116.98000732421872,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 266.69,
+            "r": 434.902,
+            "t": 127.67600732421869
+          },
+          "charspan": [
+            0,
+            31
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/161",
+      "text": "Дочерние общества ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Рабочие группы (экспертные группы, комиссии, комитеты, штабы, советы)",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 144.46000732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 178.94,
+            "r": 522.3799999999995,
+            "t": 155.15600732421865
+          },
+          "charspan": [
+            0,
+            69
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/162",
+      "text": "Рабочие группы (экспертные группы, комиссии, комитеты, штабы, советы)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Технические",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 121.90000732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 666.94,
+            "r": 727.8279999999999,
+            "t": 132.5960073242187
+          },
+          "charspan": [
+            0,
+            11
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/163",
+      "text": "Технические"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "комитеты",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 108.22000732421873,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 674.14,
+            "r": 723.436,
+            "t": 118.9160073242187
+          },
+          "charspan": [
+            0,
+            8
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/164",
+      "text": "комитеты"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "по стандартизации",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 94.42400732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 652.42,
+            "r": 739.6479999999996,
+            "t": 105.1200073242187
+          },
+          "charspan": [
+            0,
+            17
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/165",
+      "text": "по стандартизации"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Взаимодействие",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 372.51000732421875,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 657.82,
+            "r": 734.3679999999996,
+            "t": 383.2060073242187
+          },
+          "charspan": [
+            0,
+            14
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/166",
+      "text": "Взаимодействие"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Пользователи",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 192.85000732421872,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 321.17,
+            "r": 386.49799999999993,
+            "t": 203.5460073242187
+          },
+          "charspan": [
+            0,
+            12
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/167",
+      "text": "Пользователи"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Инспекционные контрольные органы ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 89.0240073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 227.3,
+            "r": 476.926,
+            "t": 99.72000732421873
+          },
+          "charspan": [
+            0,
+            46
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/168",
+      "text": "Инспекционные контрольные органы ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Изготовители (разработчики) и поставщики продукции, работ (услуг), потребители",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 61.42400732421868,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 161.3,
+            "r": 543.766,
+            "t": 72.1200073242187
+          },
+          "charspan": [
+            0,
+            78
+          ],
+          "page_no": 9
+        }
+      ],
+      "self_ref": "#/texts/169",
+      "text": "Изготовители (разработчики) и поставщики продукции, работ (услуг), потребители"
+    },
+    {
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "orig": "10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 544.8412873242188,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 413.95,
+            "r": 431.5,
+            "t": 556.9297273242188
+          },
+          "charspan": [
+            0,
+            2
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/170",
+      "text": "10"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "№",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 68.52,
+            "r": 83.52,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            1
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/171",
+      "text": "№"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "Приложение № 2 к Концепции технического регулирования и стандартизации ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 477.1412873242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 524.35,
+            "r": 785.1899999999999,
+            "t": 521.3897273242187
+          },
+          "charspan": [
+            0,
+            84
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/172",
+      "text": "Приложение № 2 к Концепции технического регулирования и стандартизации ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "level": 1,
+      "orig": "Форма Плана мероприятий по совершенствованию и развитию технического регулирования и стандартизации в ПАО «Газпром»",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 435.53055277876416,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 227.18,
+            "r": 656.14,
+            "t": 459.42400732421873
+          },
+          "charspan": [
+            0,
+            115
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/173",
+      "text": "Форма Плана мероприятий по совершенствованию и развитию технического регулирования и стандартизации в ПАО «Газпром»"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "label": "list_item",
+      "marker": "1.",
+      "orig": "1. Основные направления реализации Плана мероприятий",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 407.2840073242187,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 83.664,
+            "r": 384.89,
+            "t": 417.6160073242187
+          },
+          "charspan": [
+            0,
+            52
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/174",
+      "text": "Основные направления реализации Плана мероприятий"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "label": "list_item",
+      "marker": "2.",
+      "orig": "2. План мероприятий",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 327.81400732421866,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 83.664,
+            "r": 195.5,
+            "t": 338.14600732421866
+          },
+          "charspan": [
+            0,
+            19
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/175",
+      "text": "План мероприятий"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "label": "list_item",
+      "marker": "3.",
+      "orig": "3. Перечень целевых показателей плана мероприятий",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 245.59400732421875,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 83.664,
+            "r": 360.89,
+            "t": 255.92600732421874
+          },
+          "charspan": [
+            0,
+            49
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/176",
+      "text": "Перечень целевых показателей плана мероприятий"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Наименование целевого показателя",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 121.94,
+            "r": 320.69,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            32
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/177",
+      "text": "Наименование целевого показателя"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Единица измерения",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 353.45,
+            "r": 464.71,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            17
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/178",
+      "text": "Единица измерения"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "label": "list_item",
+      "marker": "4.",
+      "orig": "4. Объемы финансового обеспечения реализации мероприятий",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 168.55400732421867,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 83.664,
+            "r": 409.01,
+            "t": 178.88600732421867
+          },
+          "charspan": [
+            0,
+            56
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/179",
+      "text": "Объемы финансового обеспечения реализации мероприятий"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "Текущее значение",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 471.19,
+            "r": 573.19,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            16
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/180",
+      "text": "Текущее значение"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "20__ год",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 586.66,
+            "r": 634.18,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            8
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/181",
+      "text": "20__ год"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "20__ год",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 657.22,
+            "r": 704.74,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            8
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/182",
+      "text": "20__ год"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "orig": "20__ год",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [
+        {
+          "bbox": {
+            "b": 225.96055277876417,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 727.54,
+            "r": 775.08,
+            "t": 236.05400732421867
+          },
+          "charspan": [
+            0,
+            8
+          ],
+          "page_no": 10
+        }
+      ],
+      "self_ref": "#/texts/183",
+      "text": "20__ год"
+    }
+  ],
+  "version": "1.10.0"
+}
