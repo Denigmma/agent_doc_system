@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+    <div class="page-shell"></div>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <div class="app">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="sidebar-brand-mark">AD</div>
+                <div class="sidebar-brand-text">
+                    <div class="sidebar-brand-title">Agent Doc System</div>
+                    <div class="sidebar-brand-subtitle">Подготовка документов и отчетности</div>
+                </div>
+            </div>
+
+            <div class="sidebar-header">
+                <button id="new-chat-btn" class="primary-btn">Новый чат</button>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Чаты</div>
+                <div id="chat-list" class="chat-list"></div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="chat-header">
+                <div class="chat-header-main">
+                    <div class="section-kicker">Рабочий чат</div>
+                    <h1 id="chat-title">Чат не выбран</h1>
+                    <div id="chat-subtitle" class="chat-subtitle">Создайте новый чат, чтобы начать работу</div>
+                </div>
+                <div class="chat-header-actions">
+                    <button id="reset-context-btn" class="secondary-btn" disabled>Сбросить контекст</button>
+                </div>
+            </header>
+
+            <section id="messages-container" class="messages-container">
+                <div class="empty-state">
+                    <div class="empty-state-title">Здесь появится переписка с агентом</div>
+                    <div class="empty-state-text">
+                        Создайте новый чат и опишите, какой документ нужно подготовить.
+                    </div>
+                </div>
+            </section>
+
+            <footer class="chat-input-area">
+                <div class="chat-input-card">
+                    <textarea
+                        id="message-input"
+                        class="message-input"
+                        placeholder="Введите сообщение..."
+                        rows="3"
+                        disabled
+                    ></textarea>
+                    <button id="send-btn" class="primary-btn" disabled>Отправить</button>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
