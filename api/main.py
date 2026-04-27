@@ -10,7 +10,8 @@ from fastapi.templating import Jinja2Templates
 
 from agent.orchestrator import DocumentAgent
 from agent.state import SessionStateManager
-from api.routes import ChatRegistry, build_router
+from api.chat_store import ChatStore
+from api.routes import build_router
 from tools.latex_tool import compile_latex, init_latex_tool
 from tools.rag_tool import search_rag
 from tools.template_tool import init_template_repository, list_templates, load_template
@@ -22,6 +23,8 @@ TEMPLATES_DB_DIR = BASE_DIR / "templates_db"
 WEBUI_DIR = BASE_DIR / "webui"
 STATIC_DIR = WEBUI_DIR / "static"
 HTML_TEMPLATES_DIR = WEBUI_DIR / "templates"
+CHAT_DB_PATH = BASE_DIR / "storage" / "chat_app.sqlite3"
+SESSION_STORAGE_DIR = BASE_DIR / "storage" / "sessions"
 
 SITE_URL = "http://localhost:8000"
 SITE_NAME = "Agent Doc System"
@@ -55,8 +58,8 @@ def create_app() -> FastAPI:
         tectonic_binary="tectonic",
     )
 
-    state_manager = SessionStateManager()
-    chat_registry = ChatRegistry()
+    state_manager = SessionStateManager(storage_dir=SESSION_STORAGE_DIR)
+    chat_store = ChatStore(CHAT_DB_PATH)
 
     agent = DocumentAgent(
         state_manager=state_manager,
@@ -84,7 +87,7 @@ def create_app() -> FastAPI:
         build_router(
             agent=agent,
             state_manager=state_manager,
-            chat_registry=chat_registry,
+            chat_store=chat_store,
         )
     )
 

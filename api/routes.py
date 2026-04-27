@@ -2,120 +2,106 @@ from __future__ import annotations
 
 import json
 import logging
-import uuid
-from dataclasses import dataclass
-from datetime import datetime
 from pathlib import Path
 from queue import Empty
-from typing import Dict
 
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse, StreamingResponse
 
 from agent.schema import MessageRole
+from api.chat_store import ChatStore
 from api.schemas import (
     ChatCreateResponse,
     ChatDetailResponse,
     ChatInfo,
     ChatListResponse,
     ChatMessageResponse,
+    LoginRequest,
     MessageRequest,
     MessageResponse,
     ResetResponse,
+    UserResponse,
 )
 
 
 logger = logging.getLogger(__name__)
 
 
-@dataclass
-class ChatMeta:
-    chat_id: str
-    title: str
-    created_at: datetime
-    updated_at: datetime
-
-
-class ChatRegistry:
-    def __init__(self) -> None:
-        self._items: Dict[str, ChatMeta] = {}
-
-    def create_chat(self) -> ChatMeta:
-        now = datetime.utcnow()
-        chat_id = str(uuid.uuid4())
-        chat = ChatMeta(
-            chat_id=chat_id,
-            title="Новый чат",
-            created_at=now,
-            updated_at=now,
-        )
-        self._items[chat_id] = chat
-        return chat
-
-    def list_chats(self) -> list[ChatMeta]:
-        return sorted(
-            self._items.values(),
-            key=lambda item: item.updated_at,
-            reverse=True,
-        )
-
-    def get_chat(self, chat_id: str) -> ChatMeta | None:
-        return self._items.get(chat_id)
-
-    def touch_chat(self, chat_id: str) -> None:
-        chat = self._items.get(chat_id)
-        if chat:
-            chat.updated_at = datetime.utcnow()
-
-    def update_title_if_default(self, chat_id: str, user_message: str) -> None:
-        chat = self._items.get(chat_id)
-        if not chat:
-            return
-
-        if chat.title == "Новый чат":
-            cleaned = " ".join(user_message.strip().split())
-            if cleaned:
-                chat.title = cleaned[:60]
-            chat.updated_at = datetime.utcnow()
-
-
-def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter:
+def build_router(agent, state_manager, chat_store: ChatStore) -> APIRouter:
     router = APIRouter()
 
     def format_sse(event_name: str, data: dict) -> str:
         payload = json.dumps(data, ensure_ascii=False)
         return f"event: {event_name}\ndata: {payload}\n\n"
 
-    @router.get("/api/chats", response_model=ChatListResponse)
-    def list_chats() -> ChatListResponse:
+    def require_user(user_id: str):
+        user = chat_store.get_user(user_id)
+        if user is None:
+            raise HTTPException(status_code=404, detail="User not found.")
+        return user
+
+    def require_chat(user_id: str, chat_id: str):
+        chat = chat_store.get_chat(user_id, chat_id)
+        if chat is None:
+            raise HTTPException(status_code=404, detail="Chat not found.")
+        return chat
+
+    @router.post("/api/session/login", response_model=UserResponse)
+    def login(payload: LoginRequest) -> UserResponse:
+        user = chat_store.login_or_create_user(payload.username)
+        logger.info("User logged in | user_id=%s | username=%s", user.user_id, user.username)
+        return UserResponse(
+            user_id=user.user_id,
+            username=user.username,
+            created_at=user.created_at,
+            updated_at=user.updated_at,
+        )
+
+    @router.get("/api/users/{user_id}", response_model=UserResponse)
+    def get_user(user_id: str) -> UserResponse:
+        user = require_user(user_id)
+        return UserResponse(
+            user_id=user.user_id,
+            username=user.username,
+            created_at=user.created_at,
+            updated_at=user.updated_at,
+        )
+
+    @router.get("/api/users/{user_id}/chats", response_model=ChatListResponse)
+    def list_chats(user_id: str) -> ChatListResponse:
+        require_user(user_id)
         items = [
             ChatInfo(
+                user_id=chat.user_id,
                 chat_id=chat.chat_id,
                 title=chat.title,
                 created_at=chat.created_at,
                 updated_at=chat.updated_at,
             )
-            for chat in chat_registry.list_chats()
+            for chat in chat_store.list_chats(user_id)
         ]
         return ChatListResponse(items=items)
 
-    @router.post("/api/chats", response_model=ChatCreateResponse)
-    def create_chat() -> ChatCreateResponse:
-        chat = chat_registry.create_chat()
+    @router.post("/api/users/{user_id}/chats", response_model=ChatCreateResponse)
+    def create_chat(user_id: str) -> ChatCreateResponse:
+        require_user(user_id)
+        chat = chat_store.create_chat(user_id)
         state_manager.get_or_create(chat.chat_id)
-        logger.info("Created chat %s", chat.chat_id)
+        logger.info("Created chat %s for user %s", chat.chat_id, user_id)
+        return ChatCreateResponse(chat_id=chat.chat_id, title=chat.title)
 
-        return ChatCreateResponse(
-            chat_id=chat.chat_id,
-            title=chat.title,
-        )
+    @router.delete("/api/users/{user_id}/chats/{chat_id}")
+    def delete_chat(user_id: str, chat_id: str) -> dict[str, bool]:
+        require_user(user_id)
+        require_chat(user_id, chat_id)
+        state_manager.delete(chat_id)
+        deleted = chat_store.delete_chat(user_id, chat_id)
+        logger.info("Deleted chat %s for user %s", chat_id, user_id)
+        return {"success": deleted}
 
-    @router.get("/api/chats/{chat_id}", response_model=ChatDetailResponse)
-    def get_chat(chat_id: str) -> ChatDetailResponse:
-        chat = chat_registry.get_chat(chat_id)
-        if not chat:
-            raise HTTPException(status_code=404, detail="Chat not found.")
-
+    @router.get("/api/users/{user_id}/chats/{chat_id}", response_model=ChatDetailResponse)
+    def get_chat(user_id: str, chat_id: str) -> ChatDetailResponse:
+        chat = require_chat(user_id, chat_id)
         state = state_manager.get_or_create(chat_id)
 
         messages = [
@@ -127,16 +113,10 @@ def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter
         ]
 
         document_ready = bool(state.current_pdf_path)
-        document_url = f"/api/chats/{chat_id}/document" if document_ready else None
-        logger.info(
-            "Fetched chat %s | messages=%s | document_ready=%s | version=%s",
-            chat_id,
-            len(messages),
-            document_ready,
-            state.version if state.version > 0 else None,
-        )
+        document_url = f"/api/users/{user_id}/chats/{chat_id}/document" if document_ready else None
 
         return ChatDetailResponse(
+            user_id=chat.user_id,
             chat_id=chat.chat_id,
             title=chat.title,
             created_at=chat.created_at,
@@ -147,12 +127,9 @@ def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter
             version=state.version if state.version > 0 else None,
         )
 
-    @router.get("/api/chats/{chat_id}/events")
-    def stream_chat_events(chat_id: str):
-        chat = chat_registry.get_chat(chat_id)
-        if not chat:
-            raise HTTPException(status_code=404, detail="Chat not found.")
-
+    @router.get("/api/users/{user_id}/chats/{chat_id}/events")
+    def stream_chat_events(user_id: str, chat_id: str):
+        require_chat(user_id, chat_id)
         subscriber = state_manager.subscribe(chat_id)
 
         def event_stream():
@@ -164,7 +141,6 @@ def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter
                     except Empty:
                         yield ": keep-alive\n\n"
                         continue
-
                     yield format_sse(event["event"], event["data"])
             finally:
                 state_manager.unsubscribe(chat_id, subscriber)
@@ -179,33 +155,21 @@ def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter
             },
         )
 
-    @router.post("/api/chats/{chat_id}/messages", response_model=MessageResponse)
-    def send_message(chat_id: str, payload: MessageRequest) -> MessageResponse:
-        chat = chat_registry.get_chat(chat_id)
-        if not chat:
-            raise HTTPException(status_code=404, detail="Chat not found.")
+    @router.post("/api/users/{user_id}/chats/{chat_id}/messages", response_model=MessageResponse)
+    def send_message(user_id: str, chat_id: str, payload: MessageRequest) -> MessageResponse:
+        require_chat(user_id, chat_id)
 
         user_message = payload.message.strip()
         if not user_message:
             raise HTTPException(status_code=400, detail="Message is empty.")
 
-        logger.info("Received message for chat %s | text=%s", chat_id, user_message[:200])
-
-        chat_registry.update_title_if_default(chat_id, user_message)
+        logger.info("Received message for user=%s chat=%s | text=%s", user_id, chat_id, user_message[:200])
+        chat_store.update_title_if_default(user_id, chat_id, user_message)
 
         result = agent.handle_message(chat_id, user_message)
-        chat_registry.touch_chat(chat_id)
+        chat_store.touch_chat(user_id, chat_id)
 
-        document_url = f"/api/chats/{chat_id}/document" if result.pdf_ready else None
-        logger.info(
-            "Handled message for chat %s | success=%s | pdf_ready=%s | version=%s | error=%s",
-            chat_id,
-            result.success,
-            result.pdf_ready,
-            result.version,
-            result.error,
-        )
-
+        document_url = f"/api/users/{user_id}/chats/{chat_id}/document" if result.pdf_ready else None
         return MessageResponse(
             success=result.success,
             agent_message=result.message,
@@ -216,27 +180,17 @@ def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter
             error=result.error,
         )
 
-    @router.post("/api/chats/{chat_id}/reset", response_model=ResetResponse)
-    def reset_chat_context(chat_id: str) -> ResetResponse:
-        chat = chat_registry.get_chat(chat_id)
-        if not chat:
-            raise HTTPException(status_code=404, detail="Chat not found.")
-
+    @router.post("/api/users/{user_id}/chats/{chat_id}/reset", response_model=ResetResponse)
+    def reset_chat_context(user_id: str, chat_id: str) -> ResetResponse:
+        require_chat(user_id, chat_id)
         result = agent.reset_session(chat_id)
-        chat_registry.touch_chat(chat_id)
-        logger.info("Reset chat context for %s", chat_id)
+        chat_store.touch_chat(user_id, chat_id)
+        logger.info("Reset chat context | user=%s | chat=%s", user_id, chat_id)
+        return ResetResponse(success=result.success, message=result.message)
 
-        return ResetResponse(
-            success=result.success,
-            message=result.message,
-        )
-
-    @router.get("/api/chats/{chat_id}/document")
-    def download_document(chat_id: str):
-        chat = chat_registry.get_chat(chat_id)
-        if not chat:
-            raise HTTPException(status_code=404, detail="Chat not found.")
-
+    @router.get("/api/users/{user_id}/chats/{chat_id}/document")
+    def download_document(user_id: str, chat_id: str):
+        require_chat(user_id, chat_id)
         state = state_manager.get_or_create(chat_id)
         if not state.current_pdf_path:
             raise HTTPException(status_code=404, detail="Document not found.")
@@ -245,8 +199,7 @@ def build_router(agent, state_manager, chat_registry: ChatRegistry) -> APIRouter
         if not pdf_path.exists():
             raise HTTPException(status_code=404, detail="PDF file is missing on disk.")
 
-        logger.info("Downloading PDF for chat %s | path=%s", chat_id, pdf_path)
-
+        logger.info("Downloading PDF for user=%s chat=%s | path=%s", user_id, chat_id, pdf_path)
         return FileResponse(
             path=str(pdf_path),
             filename=pdf_path.name,

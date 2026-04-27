@@ -6,12 +6,24 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 
 
+class LoginRequest(BaseModel):
+    username: str = Field(..., min_length=1, max_length=64)
+
+
+class UserResponse(BaseModel):
+    user_id: str
+    username: str
+    created_at: datetime
+    updated_at: datetime
+
+
 class ChatCreateResponse(BaseModel):
     chat_id: str
     title: str
 
 
 class ChatInfo(BaseModel):
+    user_id: str
     chat_id: str
     title: str
     created_at: datetime
@@ -32,6 +44,7 @@ class ChatMessageResponse(BaseModel):
 
 
 class ChatDetailResponse(BaseModel):
+    user_id: str
     chat_id: str
     title: str
     created_at: datetime
