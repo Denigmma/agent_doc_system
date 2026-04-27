@@ -1,0 +1,29 @@
+{
+  "session_id": "cd3588d9-76bb-4687-9da5-4ad1cba8b317",
+  "status": "generated",
+  "original_user_request": "Привет, заполни для меня заявление о выходе в отпуск, я хочу выйти 1 августа 2026 на 2 недели. Занимаю должность я зам директора по логистике нефти в спб и ло, зовут меня Иван Иванов. Моего начальника зовут Анатолий Анатольевич, он директор по логистике нефти в спб и ло.\nДату в графе поставь 31.07.2026",
+  "current_template_id": "free_statement",
+  "current_template_name": "Свободное заявление",
+  "current_template_description": "Произвольное заявление в официальном стиле",
+  "current_template_latex": "\\documentclass[12pt]{article}\n\\usepackage[a4paper, margin=2cm]{geometry}\n\n\\usepackage{fontspec}\n\\usepackage{polyglossia}\n\\setdefaultlanguage{russian}\n\\setmainlanguage{russian}\n\\setmainfont{Times New Roman}\n\n\\begin{document}\n\n\\begin{center}\n\\textbf{\\LARGE ЗАЯВЛЕНИЕ}\n\\end{center}\n\n\\vspace{1cm}\n\n\n\n% === ТЕКСТ ДОКУМЕНТА ВСТАВЛЯТЬ СЮДА ===\n% Здесь должно быть изложено обращение, просьба или заявление\n% в свободной форме, но в официально-деловом стиле.\n\n\n\n\\vfill\n\n\\noindent\nДата: \\rule{5cm}{0.4pt} \\hfill Подпись: \\rule{5cm}{0.4pt}\n\n\\end{document}",
+  "current_latex": "\\documentclass[12pt]{article}\n\\usepackage[a4paper, margin=2cm]{geometry}\n\n\\usepackage{fontspec}\n\\usepackage{polyglossia}\n\\setdefaultlanguage{russian}\n\\setmainlanguage{russian}\n\\setmainfont{Times New Roman}\n\n\\begin{document}\n\n\\begin{center}\n\\textbf{\\LARGE ЗАЯВЛЕНИЕ}\n\\end{center}\n\n\\vspace{1cm}\n\n\n\n% === ТЕКСТ ДОКУМЕНТА ВСТАВЛЯТЬ СЮДА ===\n% Здесь должно быть изложено обращение, просьба или заявление\n% в свободной форме, но в официально-деловом стиле.\n\n\\noindent\nДиректору по логистике нефти в СПб и ЛО \\\\\n\\noindent\nАнатолию Анатольевичу \\\\\n\n\\vspace{0.5cm}\n\n\\noindent\nОт заместителя директора по логистике нефти в СПб и ЛО \\\\\n\\noindent\nИванова Ивана Ивановича \\\\\n\n\\vspace{0.5cm}\n\n\\noindent\nЗаявление \\\\\n\n\\vspace{0.3cm}\n\n\\noindent\nПрошу предоставить мне ежегодный оплачиваемый отпуск с 01.08.2026 сроком на 14 (четырнадцать) календарных дней.\n\n\\vfill\n\n\\noindent\nДата: 31.07.2026 \\rule{5cm}{0.4pt} \\hfill Подпись: \\rule{5cm}{0.4pt}\n\n\\end{document}",
+  "current_tex_path": "C:\\Users\\dpro7\\PycharmProjects\\agent_doc_system\\storage\\temp\\cd3588d9-76bb-4687-9da5-4ad1cba8b317\\v1\\cd3588d9-76bb-4687-9da5-4ad1cba8b317_v1.tex",
+  "current_pdf_path": "C:\\Users\\dpro7\\PycharmProjects\\agent_doc_system\\storage\\generated\\cd3588d9-76bb-4687-9da5-4ad1cba8b317_v1.pdf",
+  "retrieval_results": [],
+  "message_history": [
+    {
+      "role": "user",
+      "content": "Привет, заполни для меня заявление о выходе в отпуск, я хочу выйти 1 августа 2026 на 2 недели. Занимаю должность я зам директора по логистике нефти в спб и ло, зовут меня Иван Иванов. Моего начальника зовут Анатолий Анатольевич, он директор по логистике нефти в спб и ло.\nДату в графе поставь 31.07.2026"
+    },
+    {
+      "role": "processing",
+      "content": "Анализирую запрос и определяю тип документа.\nПодобран шаблон документа: Свободное заявление.\nФормирую финальный LaTeX-документ по выбранному шаблону.\nКомпилирую PDF-документ."
+    },
+    {
+      "role": "agent",
+      "content": "Документ успешно сформирован."
+    }
+  ],
+  "version": 1,
+  "last_error": null
+}
