@@ -1,11 +1,29 @@
+const STORAGE_KEYS = {
+    userId: "agent_doc_system.user_id",
+    username: "agent_doc_system.username",
+    theme: "agent_doc_system.theme",
+};
+
 const state = {
+    userId: null,
+    username: "",
     currentChatId: null,
     chats: [],
+    theme: "dark",
 };
 
 let activeChatEventSource = null;
 
 const elements = {
+    body: document.body,
+    loginOverlay: document.getElementById("login-overlay"),
+    loginForm: document.getElementById("login-form"),
+    loginInput: document.getElementById("login-input"),
+    loginSubmitBtn: document.getElementById("login-submit-btn"),
+    loginError: document.getElementById("login-error"),
+    userName: document.getElementById("user-name"),
+    logoutBtn: document.getElementById("logout-btn"),
+    themeToggleBtn: document.getElementById("theme-toggle-btn"),
     chatList: document.getElementById("chat-list"),
     newChatBtn: document.getElementById("new-chat-btn"),
     resetContextBtn: document.getElementById("reset-context-btn"),
@@ -15,6 +33,17 @@ const elements = {
     chatTitle: document.getElementById("chat-title"),
     chatSubtitle: document.getElementById("chat-subtitle"),
 };
+
+function isLoggedIn() {
+    return Boolean(state.userId);
+}
+
+function getUserApiBase() {
+    if (!state.userId) {
+        throw new Error("Пользователь не авторизован.");
+    }
+    return `/api/users/${encodeURIComponent(state.userId)}`;
+}
 
 async function apiRequest(url, options = {}) {
     const response = await fetch(url, {
@@ -41,11 +70,178 @@ async function apiRequest(url, options = {}) {
     return response;
 }
 
-async function loadChats() {
+function applyTheme(theme, persist = true) {
+    const normalized = theme === "light" ? "light" : "dark";
+    state.theme = normalized;
+    elements.body.dataset.theme = normalized;
+
+    if (persist) {
+        localStorage.setItem(STORAGE_KEYS.theme, normalized);
+    }
+}
+
+function toggleTheme() {
+    applyTheme(state.theme === "dark" ? "light" : "dark");
+}
+
+function setLoginError(message = "") {
+    const normalized = String(message || "").trim();
+    elements.loginError.hidden = !normalized;
+    elements.loginError.textContent = normalized;
+}
+
+function showLoginOverlay() {
+    elements.loginOverlay.classList.remove("login-overlay-hidden");
+    elements.loginInput.focus();
+}
+
+function hideLoginOverlay() {
+    elements.loginOverlay.classList.add("login-overlay-hidden");
+}
+
+function setUser(user) {
+    state.userId = user?.user_id || null;
+    state.username = user?.username || "";
+
+    if (state.userId) {
+        localStorage.setItem(STORAGE_KEYS.userId, state.userId);
+        localStorage.setItem(STORAGE_KEYS.username, state.username);
+    }
+
+    elements.userName.textContent = state.username || "Не авторизован";
+}
+
+function clearUser() {
+    state.userId = null;
+    state.username = "";
+    state.currentChatId = null;
+    state.chats = [];
+
+    localStorage.removeItem(STORAGE_KEYS.userId);
+    localStorage.removeItem(STORAGE_KEYS.username);
+
+    elements.userName.textContent = "Не авторизован";
+}
+
+function setChatControlsEnabled(enabled) {
+    elements.newChatBtn.disabled = !enabled;
+    elements.messageInput.disabled = !enabled || !state.currentChatId;
+    elements.sendBtn.disabled = !enabled || !state.currentChatId;
+    elements.resetContextBtn.disabled = !enabled || !state.currentChatId;
+    elements.logoutBtn.disabled = !enabled;
+}
+
+function resetWorkspaceView() {
+    stopActiveChatEvents();
+    elements.chatList.innerHTML = "";
+    elements.chatTitle.textContent = "Чат не выбран";
+    elements.chatSubtitle.textContent = "Войдите и создайте новый чат, чтобы начать работу";
+    elements.messageInput.value = "";
+    elements.messageInput.disabled = true;
+    elements.sendBtn.disabled = true;
+    elements.resetContextBtn.disabled = true;
+
+    elements.messagesContainer.innerHTML = `
+        <div class="empty-state">
+            <div class="empty-state-title">Здесь появится переписка с агентом</div>
+            <div class="empty-state-text">
+                После входа вы сможете открыть свои прошлые чаты или создать новый и продолжить работу над документом.
+            </div>
+        </div>
+    `;
+}
+
+async function login(username) {
+    const normalized = String(username || "").trim();
+    if (!normalized) {
+        setLoginError("Введите логин пользователя.");
+        return;
+    }
+
+    setLoginError("");
+    elements.loginSubmitBtn.disabled = true;
+
     try {
-        const data = await apiRequest("/api/chats");
+        const user = await apiRequest("/api/session/login", {
+            method: "POST",
+            body: JSON.stringify({ username: normalized }),
+        });
+
+        setUser(user);
+        hideLoginOverlay();
+        setChatControlsEnabled(true);
+        await loadChats();
+    } catch (error) {
+        setLoginError(error.message);
+    } finally {
+        elements.loginSubmitBtn.disabled = false;
+    }
+}
+
+async function restoreLogin() {
+    const savedTheme = localStorage.getItem(STORAGE_KEYS.theme);
+    applyTheme(savedTheme || "dark", false);
+
+    const savedUserId = localStorage.getItem(STORAGE_KEYS.userId);
+    const savedUsername = localStorage.getItem(STORAGE_KEYS.username);
+
+    if (!savedUserId) {
+        clearUser();
+        resetWorkspaceView();
+        showLoginOverlay();
+        return;
+    }
+
+    try {
+        const user = await apiRequest(`/api/users/${encodeURIComponent(savedUserId)}`);
+        setUser(user);
+        if (!state.username && savedUsername) {
+            state.username = savedUsername;
+            elements.userName.textContent = savedUsername;
+        }
+        hideLoginOverlay();
+        setChatControlsEnabled(true);
+        await loadChats();
+    } catch (_) {
+        clearUser();
+        resetWorkspaceView();
+        showLoginOverlay();
+    }
+}
+
+async function loadChats(preferredChatId = null) {
+    if (!isLoggedIn()) {
+        resetWorkspaceView();
+        showLoginOverlay();
+        return;
+    }
+
+    try {
+        const data = await apiRequest(`${getUserApiBase()}/chats`);
         state.chats = data.items || [];
         renderChatList();
+
+        if (!state.chats.length) {
+            state.currentChatId = null;
+            elements.chatTitle.textContent = "Новый рабочий диалог";
+            elements.chatSubtitle.textContent = "У вас пока нет чатов. Создайте новый, чтобы начать работу.";
+            elements.messageInput.disabled = true;
+            elements.sendBtn.disabled = true;
+            elements.resetContextBtn.disabled = true;
+            showSystemMessage(
+                "У этого пользователя пока нет чатов. Нажмите «Новый чат», чтобы начать новую сессию."
+            );
+            return;
+        }
+
+        const desiredChatId =
+            preferredChatId ||
+            (state.chats.some((chat) => chat.chat_id === state.currentChatId) ? state.currentChatId : null) ||
+            state.chats[0].chat_id;
+
+        if (desiredChatId) {
+            await openChat(desiredChatId);
+        }
     } catch (error) {
         showSystemMessage(`Не удалось загрузить список чатов: ${error.message}`);
     }
@@ -57,46 +253,96 @@ function renderChatList() {
     if (!state.chats.length) {
         const empty = document.createElement("div");
         empty.className = "chat-list-empty";
-        empty.textContent = "Чатов пока нет";
+        empty.textContent = "У пользователя пока нет чатов";
         elements.chatList.appendChild(empty);
         return;
     }
 
     for (const chat of state.chats) {
-        const item = document.createElement("button");
+        const item = document.createElement("div");
         item.className = "chat-list-item";
         if (chat.chat_id === state.currentChatId) {
             item.classList.add("active");
         }
 
-        item.innerHTML = `
+        const mainButton = document.createElement("button");
+        mainButton.className = "chat-list-main";
+        mainButton.type = "button";
+        mainButton.innerHTML = `
             <div class="chat-list-item-title">${escapeHtml(chat.title)}</div>
             <div class="chat-list-item-date">${formatDate(chat.updated_at)}</div>
         `;
+        mainButton.addEventListener("click", () => openChat(chat.chat_id));
 
-        item.addEventListener("click", () => openChat(chat.chat_id));
+        const deleteButton = document.createElement("button");
+        deleteButton.className = "chat-list-delete";
+        deleteButton.type = "button";
+        deleteButton.setAttribute("aria-label", "Удалить чат");
+        deleteButton.textContent = "×";
+        deleteButton.addEventListener("click", async (event) => {
+            event.stopPropagation();
+            await deleteChat(chat.chat_id);
+        });
+
+        item.appendChild(mainButton);
+        item.appendChild(deleteButton);
         elements.chatList.appendChild(item);
     }
 }
 
 async function createNewChat() {
+    if (!isLoggedIn()) {
+        showLoginOverlay();
+        return;
+    }
+
     try {
-        const data = await apiRequest("/api/chats", {
+        const data = await apiRequest(`${getUserApiBase()}/chats`, {
             method: "POST",
             body: JSON.stringify({}),
         });
 
-        await loadChats();
-        await openChat(data.chat_id);
+        await loadChats(data.chat_id);
     } catch (error) {
         showSystemMessage(`Не удалось создать чат: ${error.message}`);
     }
 }
 
+async function deleteChat(chatId) {
+    if (!isLoggedIn()) {
+        return;
+    }
+
+    const confirmed = window.confirm("Удалить этот чат и его сохраненный контекст?");
+    if (!confirmed) {
+        return;
+    }
+
+    try {
+        await apiRequest(`${getUserApiBase()}/chats/${encodeURIComponent(chatId)}`, {
+            method: "DELETE",
+        });
+
+        if (state.currentChatId === chatId) {
+            state.currentChatId = null;
+            resetWorkspaceView();
+        }
+
+        await loadChats();
+    } catch (error) {
+        showSystemMessage(`Не удалось удалить чат: ${error.message}`);
+    }
+}
+
 async function openChat(chatId) {
+    if (!isLoggedIn()) {
+        showLoginOverlay();
+        return;
+    }
+
     try {
         stopActiveChatEvents();
-        const data = await apiRequest(`/api/chats/${chatId}`);
+        const data = await apiRequest(`${getUserApiBase()}/chats/${encodeURIComponent(chatId)}`);
         state.currentChatId = data.chat_id;
 
         elements.chatTitle.textContent = data.title || "Чат";
@@ -119,7 +365,12 @@ function renderMessages(messages, documentReady = false, documentUrl = null, ver
     if (!messages.length) {
         const empty = document.createElement("div");
         empty.className = "empty-state";
-        empty.textContent = "В этом чате пока нет сообщений.";
+        empty.innerHTML = `
+            <div class="empty-state-title">В этом чате пока нет сообщений</div>
+            <div class="empty-state-text">
+                Опишите, какой документ нужно подготовить, исправить или дополнить данными из источников.
+            </div>
+        `;
         elements.messagesContainer.appendChild(empty);
     } else {
         for (const message of messages) {
@@ -138,13 +389,19 @@ function renderMessages(messages, documentReady = false, documentUrl = null, ver
     scrollMessagesToBottom();
 }
 
+function getRoleLabel(role) {
+    if (role === "user") return "Вы";
+    if (role === "system") return "Система";
+    return "Агент";
+}
+
 function appendMessage(role, content) {
     const wrapper = document.createElement("div");
     wrapper.className = `message ${role === "user" ? "message-user" : "message-agent"}`;
 
     const roleLabel = document.createElement("div");
     roleLabel.className = "message-role";
-    roleLabel.textContent = role === "user" ? "Вы" : "Агент";
+    roleLabel.textContent = getRoleLabel(role);
 
     const body = document.createElement("div");
     body.className = "message-body";
@@ -164,7 +421,7 @@ function appendProcessingMessage(content, isPlaceholder = false) {
 
     const title = document.createElement("div");
     title.className = "processing-title";
-    title.textContent = "Думает";
+    title.textContent = "Ход работы системы";
 
     const body = document.createElement("div");
     body.className = "processing-body";
@@ -174,18 +431,13 @@ function appendProcessingMessage(content, isPlaceholder = false) {
         .map((item) => item.trim())
         .filter(Boolean);
 
-    if (!steps.length) {
+    const normalizedSteps = steps.length ? steps : ["Анализирую запрос и подготавливаю следующий шаг..."];
+
+    for (const step of normalizedSteps) {
         const line = document.createElement("div");
         line.className = "processing-step";
-        line.textContent = "Анализирую запрос...";
+        line.textContent = step;
         body.appendChild(line);
-    } else {
-        for (const step of steps) {
-            const line = document.createElement("div");
-            line.className = "processing-step";
-            line.textContent = step;
-            body.appendChild(line);
-        }
     }
 
     wrapper.appendChild(title);
@@ -214,10 +466,6 @@ function appendDocumentCard(documentUrl, version = null) {
     elements.messagesContainer.appendChild(card);
 }
 
-async function fetchChatSnapshot(chatId) {
-    return await apiRequest(`/api/chats/${chatId}`);
-}
-
 function updateProcessingMessageElement(wrapper, content, isPending = false) {
     if (!wrapper) {
         return;
@@ -236,7 +484,7 @@ function updateProcessingMessageElement(wrapper, content, isPending = false) {
         .map((item) => item.trim())
         .filter(Boolean);
 
-    const normalizedSteps = steps.length ? steps : ["Анализирую запрос..."];
+    const normalizedSteps = steps.length ? steps : ["Анализирую запрос и подготавливаю следующий шаг..."];
     for (const step of normalizedSteps) {
         const line = document.createElement("div");
         line.className = "processing-step";
@@ -255,7 +503,9 @@ function stopActiveChatEvents() {
 function startChatEventStream(chatId, processingElement) {
     stopActiveChatEvents();
 
-    const eventSource = new EventSource(`/api/chats/${chatId}/events`);
+    const eventSource = new EventSource(
+        `${getUserApiBase()}/chats/${encodeURIComponent(chatId)}/events`
+    );
 
     eventSource.addEventListener("processing", (event) => {
         if (state.currentChatId !== chatId) {
@@ -291,7 +541,7 @@ async function sendMessage() {
     const message = elements.messageInput.value.trim();
 
     if (!state.currentChatId) {
-        alert("Сначала создайте или выберите чат.");
+        window.alert("Сначала создайте или выберите чат.");
         return;
     }
 
@@ -312,7 +562,7 @@ async function sendMessage() {
         const activeChatId = state.currentChatId;
         startChatEventStream(activeChatId, thinkingPlaceholder);
 
-        await apiRequest(`/api/chats/${activeChatId}/messages`, {
+        await apiRequest(`${getUserApiBase()}/chats/${encodeURIComponent(activeChatId)}/messages`, {
             method: "POST",
             body: JSON.stringify({ message }),
         });
@@ -323,8 +573,7 @@ async function sendMessage() {
             thinkingPlaceholder.remove();
         }
 
-        await openChat(activeChatId);
-        await loadChats();
+        await loadChats(activeChatId);
     } catch (error) {
         stopActiveChatEvents();
         if (thinkingPlaceholder.isConnected) {
@@ -344,7 +593,7 @@ async function resetContext() {
     }
 
     try {
-        const data = await apiRequest(`/api/chats/${state.currentChatId}/reset`, {
+        await apiRequest(`${getUserApiBase()}/chats/${encodeURIComponent(state.currentChatId)}/reset`, {
             method: "POST",
             body: JSON.stringify({}),
         });
@@ -355,11 +604,22 @@ async function resetContext() {
     }
 }
 
+function logout() {
+    clearUser();
+    stopActiveChatEvents();
+    resetWorkspaceView();
+    setChatControlsEnabled(false);
+    showLoginOverlay();
+}
+
 function showSystemMessage(text) {
     elements.messagesContainer.innerHTML = "";
     const box = document.createElement("div");
     box.className = "empty-state";
-    box.textContent = text;
+    box.innerHTML = `
+        <div class="empty-state-title">Системное сообщение</div>
+        <div class="empty-state-text">${escapeHtml(text)}</div>
+    `;
     elements.messagesContainer.appendChild(box);
 }
 
@@ -380,9 +640,16 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+elements.loginForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    await login(elements.loginInput.value);
+});
+
+elements.themeToggleBtn.addEventListener("click", toggleTheme);
 elements.newChatBtn.addEventListener("click", createNewChat);
 elements.sendBtn.addEventListener("click", sendMessage);
 elements.resetContextBtn.addEventListener("click", resetContext);
+elements.logoutBtn.addEventListener("click", logout);
 
 elements.messageInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && !event.shiftKey) {
@@ -392,5 +659,6 @@ elements.messageInput.addEventListener("keydown", (event) => {
 });
 
 window.addEventListener("load", async () => {
-    await loadChats();
+    setChatControlsEnabled(false);
+    await restoreLogin();
 });

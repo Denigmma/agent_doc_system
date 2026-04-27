@@ -6,28 +6,70 @@
     <title>{{ page_title }}</title>
     <link rel="stylesheet" href="/static/css/styles.css" />
 </head>
-<body>
+<body data-theme="dark">
     <div class="page-shell"></div>
+    <div class="page-grid"></div>
     <div class="page-glow page-glow-left"></div>
     <div class="page-glow page-glow-right"></div>
 
+    <div id="login-overlay" class="login-overlay">
+        <div class="login-card">
+            <div class="login-kicker">Agent Doc System</div>
+            <h1>Вход в рабочее пространство</h1>
+            <p class="login-text">
+                Введите логин, чтобы открыть свои чаты, продолжить работу с документами и сохранить историю сессий.
+            </p>
+            <form id="login-form" class="login-form">
+                <label class="input-label" for="login-input">Логин пользователя</label>
+                <input
+                    id="login-input"
+                    class="login-input"
+                    type="text"
+                    maxlength="64"
+                    placeholder="Например, analyst01"
+                    autocomplete="username"
+                />
+                <button id="login-submit-btn" class="primary-btn login-submit" type="submit">Войти</button>
+            </form>
+            <div id="login-error" class="login-error" hidden></div>
+        </div>
+    </div>
+
     <div class="app">
         <aside class="sidebar">
-            <div class="sidebar-brand">
-                <div class="sidebar-brand-mark">AD</div>
-                <div class="sidebar-brand-text">
-                    <div class="sidebar-brand-title">Agent Doc System</div>
-                    <div class="sidebar-brand-subtitle">Подготовка документов и отчетности</div>
+            <div class="sidebar-top">
+                <div class="sidebar-brand">
+                    <div class="sidebar-brand-mark">AD</div>
+                    <div class="sidebar-brand-text">
+                        <div class="sidebar-brand-title">Agent Doc System</div>
+                        <div class="sidebar-brand-subtitle">Генерация документов, контекст и PDF в одном рабочем чате</div>
+                    </div>
+                </div>
+
+                <div class="sidebar-controls">
+                    <button id="new-chat-btn" class="primary-btn">Новый чат</button>
+                    <button id="theme-toggle-btn" class="theme-toggle-btn" type="button" aria-label="Переключить тему">
+                        <span class="theme-toggle-track">
+                            <span class="theme-toggle-label theme-toggle-label-dark">Dark</span>
+                            <span class="theme-toggle-thumb"></span>
+                            <span class="theme-toggle-label theme-toggle-label-light">Light</span>
+                        </span>
+                    </button>
                 </div>
             </div>
 
-            <div class="sidebar-header">
-                <button id="new-chat-btn" class="primary-btn">Новый чат</button>
+            <div class="sidebar-section">
+                <div class="sidebar-title">Ваши чаты</div>
+                <div id="chat-list" class="chat-list"></div>
             </div>
 
-            <div class="sidebar-section">
-                <div class="sidebar-title">Чаты</div>
-                <div id="chat-list" class="chat-list"></div>
+            <div class="user-card">
+                <div class="user-card-label">Пользователь</div>
+                <div id="user-name" class="user-card-name">Не авторизован</div>
+                <div class="user-card-text">
+                    История сообщений и состояние документа сохраняются за вашим логином.
+                </div>
+                <button id="logout-btn" class="secondary-btn user-card-action" type="button">Выйти</button>
             </div>
         </aside>
 
@@ -36,7 +78,7 @@
                 <div class="chat-header-main">
                     <div class="section-kicker">Рабочий чат</div>
                     <h1 id="chat-title">Чат не выбран</h1>
-                    <div id="chat-subtitle" class="chat-subtitle">Создайте новый чат, чтобы начать работу</div>
+                    <div id="chat-subtitle" class="chat-subtitle">Войдите и создайте новый чат, чтобы начать работу</div>
                 </div>
                 <div class="chat-header-actions">
                     <button id="reset-context-btn" class="secondary-btn" disabled>Сбросить контекст</button>
@@ -47,7 +89,7 @@
                 <div class="empty-state">
                     <div class="empty-state-title">Здесь появится переписка с агентом</div>
                     <div class="empty-state-text">
-                        Создайте новый чат и опишите, какой документ нужно подготовить.
+                        После входа вы сможете открыть свои прошлые чаты или создать новый и продолжить работу над документом.
                     </div>
                 </div>
             </section>
@@ -57,11 +99,14 @@
                     <textarea
                         id="message-input"
                         class="message-input"
-                        placeholder="Введите сообщение..."
+                        placeholder="Опишите документ, правку или запрос к источникам..."
                         rows="3"
                         disabled
                     ></textarea>
                     <button id="send-btn" class="primary-btn" disabled>Отправить</button>
+                </div>
+                <div class="chat-input-hint">
+                    Enter - отправить, Shift + Enter - новая строка. Контекст активного чата сохраняется автоматически.
                 </div>
             </footer>
         </main>
